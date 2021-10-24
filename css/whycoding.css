@@ -1,0 +1,21 @@
+#banner {
+    background-color: #281b36;
+    height: auto;
+    width: 100%;
+    color: #fcfcfc;
+    padding:0;
+    margin:70px 0px 0px 0px;
+    position:relative;
+  }
+
+.stairsimg{
+    opacity: 0.5;
+}
+
+#bannerdesc{
+    
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
