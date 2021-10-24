@@ -52,6 +52,30 @@
   background-color: #16182b;
   color: #fcfcfc;
 }
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content2 a {
+  color: #171d24;
+  background-color: #fcfcfc;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+  /* border-bottom: 1px solid #281b365d; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content2 a:hover {
+  background-color: #16182b;
+  color: #fcfcfc;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
