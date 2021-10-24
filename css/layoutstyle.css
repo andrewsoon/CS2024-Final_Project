@@ -1,0 +1,192 @@
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 280px;
+  max-width: 1400px;
+  /* background-color: #fcfcfc; */
+  color: #171d24;
+}
+.header-white {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 10000;
+  transition: all 0.2s ease-in-out;
+  min-height: 80px;
+  background: #fff;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1em;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content a {
+  color: #171d24;
+  background-color: #fcfcfc;
+  padding: 4px 16px;
+  text-decoration: none;
+  display: block;
+  /* border-bottom: 1px solid #281b365d; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #16182b;
+  color: #fcfcfc;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.header-nav {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.header-nav:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav-whiteBG {
+  text-decoration: none;
+  color: #16182b;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.header-nav-whiteBG:hover {
+  color: #333765;
+  text-decoration: none;
+}
+
+.nav-apply-cta {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #f8ac2f;
+  padding: 0px 20px;
+  width: fit-content;
+}
+
+.nav-apply-cta:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fac46d;
+}
+
+/* #logo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+}
+#logo2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+} */
+
+.mobile {
+  display: none;
+  visibility: none;
+  height: 60px;
+  padding: 0px 20px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 1.5em;
+  margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+    visibility: none;
+  }
+
+  .mobile {
+    display: flex;
+    visibility: visible;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* Content Below */
+
+.body {
+  min-height: 800px;
+  background-color: #fff;
+}
+
+/* Content Above */
+.footer {
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  background-color: #333765;
+}
