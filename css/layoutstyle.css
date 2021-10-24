@@ -1,7 +1,7 @@
 .main {
   font-family: Arial, Helvetica, sans-serif;
-  min-width: 1200px;
-  min-height: 1000px;
+  min-width: 280px;
+  max-width: 1400px;
   /* background-color: #fcfcfc; */
   color: #171d24;
 }
@@ -100,11 +100,6 @@
   background-color: #fac46d;
 }
 
-.body {
-  min-height: 800px;
-  background-color: #fff;
-}
-
 /* #logo {
   display: none;
   position: absolute;
@@ -181,6 +176,14 @@
   }
 }
 
+/* Content Below */
+
+.body {
+  min-height: 800px;
+  background-color: #fff;
+}
+
+/* Content Above */
 .footer {
   height: 100px;
   width: 100%;
