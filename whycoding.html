@@ -43,14 +43,11 @@
   <body>
     <div class="main">
       <!-- Header/Navbar -->
-      <div class="header-white">
+      <div id="headerID" class="header-white">
         <!-- <img id="logo2" src="images/logo2.png" alt="logo" height="70" /> -->
         <div class="nav-bar">
           <a id="header-link" class="header-nav-whiteBG" href="index.html">
             <div>Home</div>
-          </a>
-          <a id="header-link2" class="header-nav-whiteBG" href="#">
-            <div>About Us</div>
           </a>
           <div>
             <button
@@ -59,24 +56,33 @@
               class="header-nav-whiteBG"
               style="border: none; background-color: transparent"
             >
-              Why Coding
+              Packages
             </button>
             <div id="myDropdown" class="dropdown-content">
-              <a href="#">Personal Loan</a>
-              <a href="#">Foreigner Loan</a>
+              <a href="#">Package 1</a>
+              <a href="#">Package 2</a>
+              <a href="#">Holiday Programs</a>
             </div>
           </div>
-          <a id="header-link2" class="header-nav-whiteBG" href="#">
-            <div>Career With Us</div>
-          </a>
-          <a id="header-link2" class="header-nav-whiteBG" href="#">
+          <div>
+            <button
+              id="header-link3"
+              onclick="myFunction2()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Our Company
+            </button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="#">About Us</a>
+              <a href="whycoding.html">Why Coding?</a>
+              <a href="#">Careers With Us</a>
+            </div>
+          </div>
+          <a id="header-link4" class="header-nav-whiteBG" href="#">
             <div>Contact Us</div>
           </a>
-          <a
-            class="nav-apply-cta"
-            class="apply-loan-whiteBG"
-            href="applyLoan.html"
-          >
+          <a class="nav-apply-cta" href="applyForm.html">
             <div>Apply Now</div>
           </a>
         </div>
@@ -91,6 +97,9 @@
           >
           <a href="#">Home</a>
           <a href="#">About Us</a>
+          <a href="#">Package 1</a>
+          <a href="#">Package 2</a>
+          <a href="#">Holiday Programs</a>
           <a href="whycoding.html">Why Coding?</a>
           <a href="#">Careers With Us</a>
           <a href="#">Contact Us</a>
