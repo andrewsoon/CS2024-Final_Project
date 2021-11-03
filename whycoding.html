@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <!-- <link
+      href="images/favicon-16x16.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    /> -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesom Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="css/layoutstyle.css" rel="stylesheet" />
+    <link href="css/whycoding.css" rel="stylesheet" />
+    <!-- Need Update Title -->
+    <title>Smart Skills For The Future - Smart Tuition Pte Ltd</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Header/Navbar -->
+      <div id="headerID" class="header-white">
+        <!-- <img id="logo2" src="images/logo2.png" alt="logo" height="70" /> -->
+        <div class="nav-bar">
+          <a id="header-link" class="header-nav-whiteBG" href="index.html">
+            <div>Home</div>
+          </a>
+          <div>
+            <button
+              id="header-link2"
+              onclick="myFunction()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Packages
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Package 1</a>
+              <a href="#">Package 2</a>
+              <a href="#">Holiday Programs</a>
+            </div>
+          </div>
+          <div>
+            <button
+              id="header-link3"
+              onclick="myFunction2()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Our Company
+            </button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="#">About Us</a>
+              <a href="whycoding.html">Why Coding?</a>
+              <a href="#">Careers With Us</a>
+            </div>
+          </div>
+          <a id="header-link4" class="header-nav-whiteBG" href="#">
+            <div>Contact Us</div>
+          </a>
+          <a class="nav-apply-cta" href="applyForm.html">
+            <div>Apply Now</div>
+          </a>
+        </div>
+        <div class="mobile">
+          <a href="#" onclick="openNav()">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Package 1</a>
+          <a href="#">Package 2</a>
+          <a href="#">Holiday Programs</a>
+          <a href="whycoding.html">Why Coding?</a>
+          <a href="#">Careers With Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div id="banner">
+        <img
+          src="assets/stairs.jpg"
+          class="stairsimg"
+          alt="stairs"
+          width="100%"
+        />
+        <div id="bannerdesc">
+          <h2 style="margin-bottom: 0.8em; font-size: 1.8em">
+            Never Too Early To Start
+          </h2>
+          <a
+            class="nav-apply-cta"
+            class="apply-loan-whiteBG"
+            href="applyLoan.html"
+            style="padding: 0.5em 1.25em; font-size: 1em"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+      <div class="reasons">
+        <div class="container" id="rcon" style="margin-top: 5em">
+          <div class="row justify-content-around" style="padding: 2em 0em">
+            <div class="col-4" id="card-01" style="margin: auto 0px">
+              <h2>CODING IS IMPORTANT</h2>
+              <p>
+                Advantages of learning how to code Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sem parturient magna a maecenas.
+              </p>
+            </div>
+            <div class="col-4" id="card-01">
+              <img src="assets/kidcoding.jpg" height="250em;" />
+            </div>
+          </div>
+          <div
+            class="row justify-content-around"
+            id="row2"
+            style="padding: 2em 0em"
+          >
+            <div class="col-4" id="card-02">
+              <img src="assets/kidcoding.jpg" height="250em;" />
+            </div>
+            <div class="col-4" id="card-02" style="margin: auto 0px">
+              <h2>CODING IS IMPORTANT</h2>
+              <p>
+                Advantages of learning how to code Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sem parturient magna a maecenas.
+              </p>
+            </div>
+            <div class="col-4" id="card-03" style="margin: auto 0px">
+              <h2>CODING IS IMPORTANT</h2>
+              <p>
+                Advantages of learning how to code Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sem parturient magna a maecenas.
+              </p>
+            </div>
+            <div class="col-4" id="card-03">
+              <img src="assets/kidcoding.jpg" height="250em;" />
+            </div>
+          </div>
+
+          <div class="row justify-content-around" style="padding: 2em 0em">
+            <div class="col-4" id="card-01" style="margin: auto 0px">
+              <h2>CODING IS IMPORTANT</h2>
+              <p>
+                Advantages of learning how to code Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Sem parturient magna a maecenas.
+              </p>
+            </div>
+            <div class="col-4" id="card-01">
+              <img src="assets/kidcoding.jpg" height="250em;" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="packages" style="margin-top: 5em; margin-bottom: 5em">
+        <h2 style="text-align: center; font-weight: bold">
+          Packages Available
+        </h2>
+        <div class="container">
+          <div class="row justify-content-around" style="padding-top: 3em">
+            <div class="col-4" style="text-align: center">
+              <img src="assets/kidcoding.jpg" width="250em" />
+              <p>
+                <br />Ages 6-12<br />Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.
+              </p>
+              <a
+                class="nav-apply-cta"
+                class="apply-loan-whiteBG"
+                href="applyLoan.html"
+                style="padding: 0.5em 1.25em; font-size: 1em"
+                >Apply Now</a
+              >
+            </div>
+            <div class="col-4" style="text-align: center">
+              <img src="assets/kidcoding.jpg" width="250em" />
+              <p>
+                <br />Ages 6-12<br />Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.
+              </p>
+              <a
+                class="nav-apply-cta"
+                class="apply-loan-whiteBG"
+                href="applyLoan.html"
+                style="padding: 0.5em 1.25em; font-size: 1em"
+                >Apply Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="socials-container">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Why Coding</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Career With Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

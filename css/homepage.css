@@ -1,0 +1,527 @@
+.homepage-banner {
+  background-color: #333a65;
+  min-height: 660px;
+  padding: 20px 20px 0px 20px;
+}
+
+.heading-group {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding-left: 50px;
+}
+
+.banner-header {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-subheader {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.banner-apply-cta {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #f8ac2f;
+  padding: 15px 40px;
+  width: fit-content;
+}
+
+.banner-apply-cta:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fdb542;
+}
+
+.banner-image {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.homepage-feature-bar {
+  background-color: #2d2f38;
+  min-height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 30px 20px 20px;
+}
+
+.feature-group {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.feature-image {
+  padding-right: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.feature-details {
+  font-size: 1em;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.feature-header {
+  font-size: 1.4em;
+  color: #f8ac2f;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why-coding-container {
+  background-color: #fff;
+  padding: 60px 60px 30px;
+}
+
+.why-coding-img {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.why-coding-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 40px;
+}
+.container-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 30px auto;
+}
+
+.why-coding-subheader {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.why-coding-details {
+  font-size: 1.2em;
+  margin-bottom: 24px;
+}
+
+.why-coding-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #ededed;
+  padding: 15px 40px;
+  width: fit-content;
+}
+
+.why-coding-link:hover {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  background-color: #e0e0e0;
+}
+
+.our-packages {
+  background-color: #fff;
+  padding: 30px 60px 90px;
+}
+
+.packages-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.packages-info {
+  margin-top: 20px;
+  width: 50%;
+  font-size: 1.5em;
+}
+
+.package-container {
+  margin-top: 30px;
+  background-color: #2d4159;
+  border-radius: 20px;
+  padding: 40px 80px 50px;
+}
+
+.package-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.package-details {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+.package-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #f8ac2f;
+  padding: 15px 40px;
+  width: fit-content;
+}
+
+.package-link:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fdb542;
+}
+
+.package-container2 {
+  margin-top: 30px;
+  background-color: #2bbf9c;
+  border-radius: 20px;
+  padding: 40px 80px 50px;
+}
+
+.holiday-container {
+  height: 500px;
+  background-image: url(../images/dark-background-kids.png);
+  background-position: 50% 30%;
+  display: flex;
+  flex-direction: row;
+  color: #fcfcfc;
+  padding: 40px 80px 40px;
+}
+
+.holiday-group {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.holiday-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #f8ac2f;
+  margin-bottom: 20px;
+}
+
+.holiday-sub-header {
+  font-size: 1.2em;
+  color: #fff;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.holiday-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #f8ac2f;
+  padding: 15px 40px;
+  width: fit-content;
+}
+
+.holiday-link:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fdb542;
+}
+
+.holiday-programs {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.programs {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.program-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.our-teachers-container {
+  min-height: 500px;
+  padding: 40px 80px 40px;
+  text-align: center;
+}
+
+.teachers-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.teachers-subheader {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.teachers-group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.teacher {
+  width: 250px;
+  padding: 20px;
+}
+
+.teacher-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.teacher-name {
+  font-size: 1.2em;
+}
+
+.teacher-message {
+  font-size: 1em;
+}
+
+.testimonials-container {
+  height: 500px;
+  background-color: #2d2f38;
+  padding: 40px 80px 40px;
+}
+
+.testimonials-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  /* margin: auto; */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding: 10px 80px;
+}
+
+.testimonial-group {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial-image {
+  width: 400px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  padding: 20px;
+}
+
+.rating-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.testimonial-person {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  font-size: 1em;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  color: #c4c4c4 !important;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  color: #fff !important;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  .heading-group {
+    padding: 0px;
+  }
+
+  .banner-image {
+    display: none;
+    visibility: hidden;
+  }
+  .homepage-feature-bar {
+    flex-direction: column;
+  }
+
+  .feature-image {
+    width: 100px;
+  }
+
+  .why-coding-container,
+  .our-packages {
+    padding: 60px 40px 30px;
+  }
+
+  .why-coding-group {
+    padding: 0px;
+  }
+
+  .packages-info {
+    width: 100%;
+  }
+
+  .package-container,
+  .package-container2,
+  .holiday-container,
+  .testimonials-container,
+  .our-teachers-container {
+    padding: 30px 20px 40px;
+  }
+  .holiday-container {
+    flex-direction: column-reverse;
+  }
+
+  .holiday-group {
+    width: 100%;
+  }
+
+  .holiday-sub-header {
+    width: 100%;
+  }
+
+  .holiday-programs {
+    display: none;
+    visibility: none;
+  }
+
+  .teachers-group {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .teacher .teacher-img {
+    height: 100px;
+    width: auto;
+  }
+
+  .mySlides {
+    padding: 0px;
+  }
+
+  .testimonial-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial {
+    display: none;
+    visibility: hidden;
+  }
+}

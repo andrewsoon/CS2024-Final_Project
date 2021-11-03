@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Favicon -->
-    <!-- <link
+    <link
       href="images/favicon-16x16.png"
       rel="shortcut icon"
       type="image/x-icon"
-    /> -->
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -43,17 +43,18 @@
   <body>
     <div class="main">
       <!-- Header/Navbar -->
-      <div class="header-white">
-        <!-- <img id="logo2" src="images/logo2.png" alt="logo" height="70" /> -->
+      <div id="headerID" class="header-transparent">
+        <img id="logo" src="images/logo.png" alt="logo" height="70" />
+        <img id="logo2" src="images/logo-dark.png" alt="logo" height="70" />
         <div class="nav-bar">
-          <a id="header-link" class="header-nav-whiteBG" href="index.html">
+          <a id="header-link" class="header-nav" href="index.html">
             <div>Home</div>
           </a>
           <div>
             <button
-              id="header-link"
+              id="header-link2"
               onclick="myFunction()"
-              class="header-nav-whiteBG"
+              class="header-nav"
               style="border: none; background-color: transparent"
             >
               Packages
@@ -66,20 +67,20 @@
           </div>
           <div>
             <button
-              id="header-link2"
+              id="header-link3"
               onclick="myFunction2()"
-              class="header-nav-whiteBG"
+              class="header-nav"
               style="border: none; background-color: transparent"
             >
               Our Company
             </button>
             <div id="myDropdown2" class="dropdown-content2">
               <a href="#">About Us</a>
-              <a href="#">Why Coding?</a>
+              <a href="whycoding.html">Why Coding?</a>
               <a href="#">Careers With Us</a>
             </div>
           </div>
-          <a id="header-link2" class="header-nav-whiteBG" href="#">
+          <a id="header-link4" class="header-nav" href="#">
             <div>Contact Us</div>
           </a>
           <a class="nav-apply-cta" href="applyForm.html">
@@ -97,16 +98,352 @@
           >
           <a href="#">Home</a>
           <a href="#">About Us</a>
-          <a href="#">Why Coding?</a>
           <a href="#">Package 1</a>
           <a href="#">Package 2</a>
           <a href="#">Holiday Programs</a>
+          <a href="whycoding.html">Why Coding?</a>
           <a href="#">Careers With Us</a>
           <a href="#">Contact Us</a>
         </div>
       </div>
-      <div class="body"></div>
-      <div class="footer">Footer</div>
+      <div class="body">
+        <div class="homepage-banner">
+          <div class="row" style="height: 660px">
+            <div class="col-sm-6 col-12" style="height: 100%">
+              <div class="heading-group">
+                <h1 class="banner-header">Lorem ipsum dolor sit amet</h1>
+                <h2 class="banner-subheader">Lorem ipsum dolor sit amet</h2>
+                <a class="banner-apply-cta" href="applyForm.html">
+                  Apply Now
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="banner-image">
+                <img
+                  src="images/children-coding.png"
+                  alt="children-coding"
+                  width="100%"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="homepage-feature-bar">
+          <div class="feature-group">
+            <div class="feature-image">
+              <img src="images/calendar.svg" alt="calendar" width="100%" />
+            </div>
+            <div class="feature-details">
+              <div class="feature-header">Up to date curriculum</div>
+              <p>
+                Based on the latest technology, our content are updated
+                regularly to provide state of the art education
+              </p>
+            </div>
+          </div>
+          <div class="feature-group">
+            <div class="feature-image">
+              <img src="images/training.svg" alt="training" width="100%" />
+            </div>
+            <div class="feature-details">
+              <div class="feature-header">Personalized Learning</div>
+              <p>
+                Based on the latest technology, our content are updated
+                regularly to provide state of the art education
+              </p>
+            </div>
+          </div>
+          <div class="feature-group">
+            <div class="feature-image">
+              <img
+                src="images/build-portfolio.svg"
+                alt="build-portfolio"
+                width="100%"
+              />
+            </div>
+            <div class="feature-details">
+              <div class="feature-header">Build Your Portfolio</div>
+              <p>
+                Based on the latest technology, our content are updated
+                regularly to provide state of the art education
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="why-coding-container">
+          <div class="row" style="margin-top: 30 px">
+            <div class="col-sm-6">
+              <div class="why-coding-img">
+                <img
+                  src="images/why-coding.png"
+                  alt="why-coding"
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="why-coding-group">
+                <div class="container-header">
+                  Computer Programming is the Future
+                </div>
+                <div class="why-coding-subheader">
+                  Lorem ipsum dolor sit amet
+                </div>
+                <div class="why-coding-details">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Ultrices ultrices tempus, cursus sed elit, cursus.
+                </div>
+                <a class="why-coding-link" href="#"> Learn More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-packages">
+          <div class="packages-header">Packages Available</div>
+          <div class="packages-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+            pretium eu cursus integer pharetra.
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="package-container">
+                <div class="package-header">Package 1</div>
+                <div class="package-details">
+                  Between ages 6-12<br /><br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <a class="package-link" href="#"> Learn More </a>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="package-container2">
+                <div class="package-header">Package 1</div>
+                <div class="package-details">
+                  Between ages 6-12<br /><br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <a class="package-link" href="#"> Learn More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="holiday-container">
+          <div class="holiday-group">
+            <div class="holiday-header">Holiday Programs</div>
+            <div class="holiday-sub-header">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae,
+              pretium eu cursus integer pharetra.
+            </div>
+            <a class="holiday-link" href="#"> Learn More </a>
+          </div>
+          <div class="holiday-programs">
+            <div class="programs">
+              <i class="fas fa-hiking fa-3x"></i>
+              <div class="program-name">Coding Camp</div>
+            </div>
+            <div class="programs">
+              <i class="fas fa-hiking fa-3x"></i>
+              <div class="program-name">Minecraft Adventures</div>
+            </div>
+            <div class="programs">
+              <i class="fas fa-hiking fa-3x"></i>
+              <div class="program-name">Roblox Coding Camp</div>
+            </div>
+          </div>
+        </div>
+        <div class="our-teachers-container">
+          <div class="teachers-header">Meet Our Expert Teachers</div>
+          <div class="teachers-subheader">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+            parturient magna a maecenas.
+          </div>
+          <div class="teachers-group">
+            <div class="teacher">
+              <img
+                class="teacher-img"
+                src="images/mr-robert-holland.png"
+                alt="mr-robert-holland"
+              />
+              <div class="teacher-name">Mr Robert Holland</div>
+              <div class="teacher-message">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+              </div>
+            </div>
+            <div class="teacher">
+              <img
+                class="teacher-img"
+                src="images/mr-robert-holland.png"
+                alt="mr-robert-holland"
+              />
+              <div class="teacher-name">Mr Robert Holland</div>
+              <div class="teacher-message">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+              </div>
+            </div>
+            <div class="teacher">
+              <img
+                class="teacher-img"
+                src="images/mr-robert-holland.png"
+                alt="mr-robert-holland"
+              />
+              <div class="teacher-name">Mr Robert Holland</div>
+              <div class="teacher-message">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+              </div>
+            </div>
+            <div class="teacher">
+              <img
+                class="teacher-img"
+                src="images/mr-robert-holland.png"
+                alt="mr-robert-holland"
+              />
+              <div class="teacher-name">Mr Robert Holland</div>
+              <div class="teacher-message">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonials-header">
+            what parents have to say about us
+          </div>
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="testimonial-group">
+                <img class="testimonial-image" src="images/mother.png" />
+                <div class="testimonial-content">
+                  <div class="rating-group">
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #c4c4c4"
+                    ></i>
+                  </div>
+                  <div class="testimonial-person">Alice Chew, Mother</div>
+                  <div class="testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lobortis feugiat ipsum nunc venenatis sit pretium. Dolor
+                    arcu facilisi sit lacus, mi elit pharetra. Amet pharetra,
+                    dictumst eget phasellus massa duis auctor sed nisi. Tempor
+                    eget phasellus urna laoreet.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mySlides fade">
+              <div class="testimonial-group">
+                <img class="testimonial-image" src="images/mother.png" />
+                <div class="testimonial-content">
+                  <div class="rating-group">
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #c4c4c4"
+                    ></i>
+                  </div>
+                  <div class="testimonial-person">Alice Chew, Mother</div>
+                  <div class="testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lobortis feugiat ipsum nunc venenatis sit pretium. Dolor
+                    arcu facilisi sit lacus, mi elit pharetra. Amet pharetra,
+                    dictumst eget phasellus massa duis auctor sed nisi. Tempor
+                    eget phasellus urna laoreet.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="testimonial-group">
+                <img class="testimonial-image" src="images/peter-lim.png" />
+                <div class="testimonial-content">
+                  <div class="rating-group">
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                    <i
+                      class="fas fa-star fa-2x"
+                      style="margin-right: 10px; color: #f8ac2f"
+                    ></i>
+                  </div>
+                  <div class="testimonial-person">Peter Lim, Father</div>
+                  <div class="testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lobortis feugiat ipsum nunc venenatis sit pretium. Dolor
+                    arcu facilisi sit lacus, mi elit pharetra. Amet pharetra,
+                    dictumst eget phasellus massa duis auctor sed nisi. Tempor
+                    eget phasellus urna laoreet.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="socials-container">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Why Coding</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Career With Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
@@ -114,6 +451,11 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <!-- Slideshow effect -->
+    <script src="javascript/slideshow.js"></script>
+    <!-- Import this for header scroll effect -->
+    <script src="javascript/headerEffects.js"></script>
+    <!-- Import this for responsive header and footer -->
     <script src="javascript/index.js"></script>
   </body>
 </html>
