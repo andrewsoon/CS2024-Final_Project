@@ -142,20 +142,20 @@
   background-color: #fac46d;
 }
 
-/* #logo {
+#logo {
   display: none;
   position: absolute;
   top: 0;
   left: 0;
-  margin: 5px 84.5px;
+  margin: 5px 80px;
 }
 #logo2 {
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  margin: 5px 84.5px;
-} */
+  margin: 5px 80px;
+}
 
 .mobile {
   display: none;
@@ -254,6 +254,13 @@
 }
 
 @media only screen and (max-width: 768px) {
+  #logo {
+    margin: 5px 21px;
+  }
+  #logo2 {
+    margin: 5px 21px;
+  }
+
   .nav-bar {
     display: none;
     visibility: none;
