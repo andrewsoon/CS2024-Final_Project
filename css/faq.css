@@ -1,0 +1,53 @@
+.body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top:120px;
+}
+
+.faqheader{
+    margin-left:80px;
+    /* text-align: center; */
+}
+
+#headingOne button{
+    background: #F8AC2F;
+    color:black;
+}
+
+#headingTwo button{
+    background: #C0392B;
+    color:black;
+}
+
+#headingThree button{
+    background: #6CB9C3;
+    color:black;
+}
+
+.qna a{
+    text-decoration: underline;
+    color:black;
+}
+
+.banner {
+    background-color: #281b36;
+    height: auto;
+    width: 100%;
+    color: #fcfcfc;
+    position:relative;
+    margin:70px 0px 0px 0px;
+    text-align: center;
+  }
+
+.stairsimg{
+    opacity: 0.5;
+
+}
+
+#bannerdesc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <!-- <link
+      href="images/favicon-16x16.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    /> -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesom Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="css/layoutstyle.css" rel="stylesheet" />
+    <link href="css/faq.css" rel="stylesheet" />
+    <!-- Need Update Title -->
+    <title>FAQ</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Header/Navbar -->
+      <div id="headerID" class="header-white">
+        <!-- <img id="logo2" src="images/logo2.png" alt="logo" height="70" /> -->
+        <div class="nav-bar">
+          <a id="header-link" class="header-nav-whiteBG" href="index.html">
+            <div>Home</div>
+          </a>
+          <div>
+            <button
+              id="header-link2"
+              onclick="myFunction()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Packages
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="below12.html">Below 12</a>
+              <a href="#">Package 2</a>
+              <a href="#">Holiday Programs</a>
+            </div>
+          </div>
+          <div>
+            <button
+              id="header-link3"
+              onclick="myFunction2()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Our Company
+            </button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="#">About Us</a>
+              <a href="whycoding.html">Why Coding?</a>
+              <a href="#">Careers With Us</a>
+            </div>
+          </div>
+          <a id="header-link4" class="header-nav-whiteBG" href="#">
+            <div>Contact Us</div>
+          </a>
+          <a class="nav-apply-cta" href="applyForm.html">
+            <div>Apply Now</div>
+          </a>
+        </div>
+        <div class="mobile">
+          <a href="#" onclick="openNav()">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="below12.html">Below 12</a>
+          <a href="#">Package 2</a>
+          <a href="#">Holiday Programs</a>
+          <a href="whycoding.html">Why Coding?</a>
+          <a href="#">Careers With Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="body">
+        <h1 class="faqheader">FAQ</h1>
+        <div class="container" id="programs">
+            <div class="row" style="padding: 2em 0em">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Registration FAQ
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="qna">
+                                <strong>Is there any prerequisite for the lessons?</strong>
+                                <p>No prior experience is required.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if I miss the lesson? Are there any replacement lesson?</strong>
+                                <p>Lessons will be replaced if a valid reason is provided, i.e. MC provided, or if you let the centre know in advance that you will not be able to make it for the lesson. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What is the curriculum like? </strong>
+                                <p>Click here for <a href="#below12.html">Below 12</a><br>
+                                Click here for <a href="#">Above 12</a><br>
+                                Click here for <a href="#">Holiday Programme</a><p>
+                            </div>
+                            <div class="qna">
+                                <strong>Which programme should I send my child for?</strong>
+                                <p>If your child is below 12, you can go for the ‘Below 12’ programme. If your child is above 12, you can go for the ‘Above 12’ programme. If you are unsure which programme is more suited for your child, you can sign up for our free trial to see which one suits your child best. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if the timeslot that I want is unavailable?</strong>
+                                <p>Our classes have a fixed number of students. If the timeslot you want is unavailable and you are unable to make it for other timeslots, drop us an email or call us at +65 6391 5834 so that we can assist you.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>If I do not sign up for all 3 terms, will I still be able to learn anything?</strong>
+                                <p>Yes, of course, you will be able to! We teach different languages every term, and each term is independent of the other. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>Am I able to choose the teacher I want?</strong>
+                                <p>Unfortunately, no. Our teachers have pre-assigned classes hence, if you would like to attend a specific teacher’s lesson, you will have to select the timeslot he/she is taking.
+                                </p>
+                            </div>
+                            <div class="qna">
+                                <strong>How are lessons conducted? </strong>
+                                <p>Lessons for the ‘Below 12’ programme are conducted physically at the centre, in groups of 4 with 1 teacher, and 1 teaching assistant. 
+                                    Lessons for the ‘Above 12’ programme is conducted online, in groups of 4 with 1 teacher. </p>
+                            </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="qna">
+                                <strong>Is there any prerequisite for the lessons?</strong>
+                                <p>No prior experience is required.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if I miss the lesson? Are there any replacement lesson?</strong>
+                                <p>Lessons will be replaced if a valid reason is provided, i.e. MC provided, or if you let the centre know in advance that you will not be able to make it for the lesson. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What is the curriculum like? </strong>
+                                <p>Click here for <a href="#below12.html">Below 12</a><br>
+                                Click here for <a href="#">Above 12</a><br>
+                                Click here for <a href="#">Holiday Programme</a><p>
+                            </div>
+                            <div class="qna">
+                                <strong>Which programme should I send my child for?</strong>
+                                <p>If your child is below 12, you can go for the ‘Below 12’ programme. If your child is above 12, you can go for the ‘Above 12’ programme. If you are unsure which programme is more suited for your child, you can sign up for our free trial to see which one suits your child best. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if the timeslot that I want is unavailable?</strong>
+                                <p>Our classes have a fixed number of students. If the timeslot you want is unavailable and you are unable to make it for other timeslots, drop us an email or call us at +65 6391 5834 so that we can assist you.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>If I do not sign up for all 3 terms, will I still be able to learn anything?</strong>
+                                <p>Yes, of course, you will be able to! We teach different languages every term, and each term is independent of the other. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>Am I able to choose the teacher I want?</strong>
+                                <p>Unfortunately, no. Our teachers have pre-assigned classes hence, if you would like to attend a specific teacher’s lesson, you will have to select the timeslot he/she is taking.
+                                </p>
+                            </div>
+                            <div class="qna">
+                                <strong>How are lessons conducted? </strong>
+                                <p>Lessons for the ‘Below 12’ programme are conducted physically at the centre, in groups of 4 with 1 teacher, and 1 teaching assistant. 
+                                    Lessons for the ‘Above 12’ programme is conducted online, in groups of 4 with 1 teacher. </p>
+                            </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="qna">
+                                <strong>Is there any prerequisite for the lessons?</strong>
+                                <p>No prior experience is required.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if I miss the lesson? Are there any replacement lesson?</strong>
+                                <p>Lessons will be replaced if a valid reason is provided, i.e. MC provided, or if you let the centre know in advance that you will not be able to make it for the lesson. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What is the curriculum like? </strong>
+                                <p>Click here for <a href="#below12.html">Below 12</a><br>
+                                Click here for <a href="#">Above 12</a><br>
+                                Click here for <a href="#">Holiday Programme</a><p>
+                            </div>
+                            <div class="qna">
+                                <strong>Which programme should I send my child for?</strong>
+                                <p>If your child is below 12, you can go for the ‘Below 12’ programme. If your child is above 12, you can go for the ‘Above 12’ programme. If you are unsure which programme is more suited for your child, you can sign up for our free trial to see which one suits your child best. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>What if the timeslot that I want is unavailable?</strong>
+                                <p>Our classes have a fixed number of students. If the timeslot you want is unavailable and you are unable to make it for other timeslots, drop us an email or call us at +65 6391 5834 so that we can assist you.</p>
+                            </div>
+                            <div class="qna">
+                                <strong>If I do not sign up for all 3 terms, will I still be able to learn anything?</strong>
+                                <p>Yes, of course, you will be able to! We teach different languages every term, and each term is independent of the other. </p>
+                            </div>
+                            <div class="qna">
+                                <strong>Am I able to choose the teacher I want?</strong>
+                                <p>Unfortunately, no. Our teachers have pre-assigned classes hence, if you would like to attend a specific teacher’s lesson, you will have to select the timeslot he/she is taking.
+                                </p>
+                            </div>
+                            <div class="qna">
+                                <strong>How are lessons conducted? </strong>
+                                <p>Lessons for the ‘Below 12’ programme are conducted physically at the centre, in groups of 4 with 1 teacher, and 1 teaching assistant. 
+                                    Lessons for the ‘Above 12’ programme is conducted online, in groups of 4 with 1 teacher. </p>
+                            </div>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            
+            
+
+        </div>
+        <div class="banner">
+            <img
+              src="assets/stairs.jpg"
+              class="stairsimg"
+              alt="stairs"
+              width="100%"
+            />
+            <div id="bannerdesc">
+              <h2 style="margin-bottom: 0.8em; font-size: 1.8em">
+                Any further questions?
+              </h2>
+              <a
+                class="nav-apply-cta"
+                class="apply-loan-whiteBG"
+                href="#"
+                style="padding: 0.5em 1.25em; font-size: 1em"
+                >Contact Us  Now</a
+              >
+            </div>
+        </div>
+        
+      <div class="footer">
+        <div class="socials-container">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Why Coding</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Career With Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
