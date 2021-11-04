@@ -1,0 +1,113 @@
+.body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+#banner{
+    margin:80px auto;
+
+}
+
+#banner-left{
+    height:400px;
+    background-color: black;
+    padding: auto 0 auto 0;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/below12image.jpg);
+}
+
+#banner-right{
+    background-color:#16182b;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:20px 150px;
+    
+}
+
+#banner-right i{
+    color:white;
+}
+#banner-card{
+    position:absolute;
+    top:150px;
+    right:180px;
+    padding:15px 10px;
+    border-radius: 0;
+    width:28rem;
+    
+}
+
+.card-link{
+    background-color:#f8ac2f;
+    padding:10px 20px;
+    color:white;
+    position:absolute;
+    top:160px;
+    left:170px;
+}
+
+.method{
+    padding: 0 70px;
+    text-align: center;
+    
+}
+
+.method p{
+    font-size:12px;
+}
+
+.method i{
+    color:#f8ac2f;
+}
+
+#programs{
+    margin-top:50px;
+    padding:0;
+}
+
+.accordion{
+    width:50%;
+}
+
+h2{
+    text-align: center;
+}
+
+.schedule{
+    background-color:#6CB9C3;
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.schcontent{
+    display:flex;
+    justify-content: space-evenly;
+}
+.schdesc{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#lastcall{
+    background-color: #281b36;
+    height: auto;
+    width: 100%;
+    color: #fcfcfc;
+    position:relative;
+}
+#bannerdesc{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.stairsimg{
+    opacity: 0.5;
+
+}
