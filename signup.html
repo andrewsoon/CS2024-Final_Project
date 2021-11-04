@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      href="images/favicon-16x16.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesom Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link href="css/layoutstyle.css" rel="stylesheet" />
+    <link href="css/signup.css" rel="stylesheet" />
+    <!-- Need Update Title -->
+    <title>Smart Skills For The Future - Smart Tuition Pte Ltd</title>
+  </head>
+  <body>
+    <div class="main">
+      <!-- Header/Navbar -->
+      <div id="headerID" class="header-white">
+        <!-- <img id="logo2" src="images/logo2.png" alt="logo" height="70" /> -->
+        <div class="nav-bar">
+          <a id="header-link" class="header-nav-whiteBG" href="index.html">
+            <div>Home</div>
+          </a>
+          <div>
+            <button
+              id="header-link2"
+              onclick="myFunction()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Packages
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="below12.html">Below 12</a>
+              <a href="#">Package 2</a>
+              <a href="#">Holiday Programs</a>
+            </div>
+          </div>
+          <div>
+            <button
+              id="header-link3"
+              onclick="myFunction2()"
+              class="header-nav-whiteBG"
+              style="border: none; background-color: transparent"
+            >
+              Our Company
+            </button>
+            <div id="myDropdown2" class="dropdown-content2">
+              <a href="#">About Us</a>
+              <a href="whycoding.html">Why Coding?</a>
+              <a href="#">Careers With Us</a>
+            </div>
+          </div>
+          <a id="header-link4" class="header-nav-whiteBG" href="#">
+            <div>Contact Us</div>
+          </a>
+          <a class="nav-apply-cta" href="signup.html">
+            <div>Apply Now</div>
+          </a>
+        </div>
+        <div class="mobile">
+          <a href="#" onclick="openNav()">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+        </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="below12.html">Below 12</a>
+          <a href="#">Package 2</a>
+          <a href="#">Holiday Programs</a>
+          <a href="whycoding.html">Why Coding?</a>
+          <a href="#">Careers With Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+      <div class="body">
+        <div class="form-container">
+          <div class="form-header">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div class="form-subheader">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </div>
+          <div class="element-group">
+            <form>
+              <div class="form-group">
+                <label>Name of Parent</label>
+                <input
+                  id="parentname"
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Name of Child</label>
+                <input
+                  id="childname"
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Age of Child</label>
+                <input
+                  id="child-age"
+                  type="number"
+                  min="6"
+                  step="1"
+                  class="form-control"
+                  placeholder="Must be above 6 years old"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Contact Number</label>
+                <input
+                  id="child-age"
+                  type="number"
+                  step="1"
+                  class="form-control"
+                  required
+                  placeholder="(+65) 9876 XXXX"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label>Programme you’re interested in</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  onchange="showDiv(this)"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Programme
+                  </option>
+                  <option value="0">Below 12</option>
+                  <option value="1">Above 12</option>
+                  <option value="2">Holiday</option>
+                  <option value="3">Free Trial</option>
+                </select>
+              </div>
+              <div class="form-group" id="below12">
+                <label>Timeslot of Lesson</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Timeslot
+                  </option>
+                  <option value="0">Time1</option>
+                  <option value="1">Time2</option>
+                  <option value="2">Time3</option>
+                  <option value="3">Time4</option>
+                </select>
+              </div>
+              <div class="form-group" id="above12">
+                <label>Timeslot of Lesson</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Timeslot
+                  </option>
+                  <option value="0">Time1</option>
+                  <option value="1">Time2</option>
+                  <option value="2">Time3</option>
+                  <option value="3">Time4</option>
+                </select>
+              </div>
+              <div class="form-group" id="holiday">
+                <label>Timeslot of Lesson</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Timeslot
+                  </option>
+                  <option value="0">Time1</option>
+                  <option value="1">Time2</option>
+                  <option value="2">Time3</option>
+                  <option value="3">Time4</option>
+                </select>
+              </div>
+              <div class="form-group" id="freetrial">
+                <label>Timeslot of Lesson</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Timeslot
+                  </option>
+                  <option value="0">Time1</option>
+                  <option value="1">Time2</option>
+                  <option value="2">Time3</option>
+                  <option value="3">Time4</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <div class="form-section">
+              <div class="section-header">Lorem ipsum dolor sit amet</div>
+              <div class="section-subheader">Future Proof Skills</div>
+              <div class="section-subheader">Smarter Children</div>
+              <div class="section-subheader">Problem Solvers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="socials-container">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Why Coding</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Career With Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="javascript/dropdown.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
