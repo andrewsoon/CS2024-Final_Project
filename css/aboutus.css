@@ -12,6 +12,7 @@
 .mission-header {
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
 }
 
 .mission {
@@ -114,4 +115,39 @@
   width: 50%;
   text-align: center;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mission,
+  .mission-header {
+    width: 80%;
+  }
+
+  .awards-container,
+  .ourstory-container,
+  .philosophy-container,
+  .aspiration-container {
+    padding: 40px 20px;
+    height: fit-content;
+  }
+
+  .awards-container,
+  .philosophy-container {
+    flex-direction: column-reverse;
+  }
+
+  .awards-content,
+  .awards-img,
+  .ourstory-content,
+  .ourstory-img,
+  .philo-img,
+  .aspirations-text {
+    width: 100%;
+  }
+  .ourstory-container {
+    flex-direction: column;
+  }
+  .ourstory-content {
+    padding: 20px 0px;
+  }
 }
