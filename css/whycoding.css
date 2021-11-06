@@ -1,68 +1,104 @@
 .body{
-    overflow-x: hidden;
-}
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}    
 
-#banner {
+.banner{
     background-color: #281b36;
+    margin:80px auto;
     height: auto;
     width: 100%;
     color: #fcfcfc;
     position:relative;
-    margin:70px 0px 0px 0px;
-  }
+    
+}
 
 .stairsimg{
     opacity: 0.5;
 
-}#rcon{
-    margin:20px;
 }
 
-#rcon.row{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;    
+#bannerdesc{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
 }
 
+#bannerdesc h2{
+    margin-bottom: 0.8em; 
+    font-size: 1.8em
+}
 
-/* phone */
+#bannerdesc a{
+    padding: 0.5em 1.25em; 
+    font-size: 1em
+}
+
 @media only screen and (max-width:768px){
-    #card-01, #card-03{
-        background: #03D29F;
-        position: relative;
-        flex: 1;
-        max-width: 300px;
-        height: 150px;
-        margin: auto 0px;
-        flex: 100%;
-        max-width: 600px;
-        text-align: center;
-        padding-bottom:10em;
-      }
     #bannerdesc{
         position: absolute;
-        top: 70%;
-        left: 30%;
+        top: 50%;
+        left: 50%;
         transform: translate(-50%, -50%);  
+        text-align:center;
+        
     }
-    #card-02{
-        display:none;
+    #bannerdesc h2{
+        font-size:1em;
     }
-    #row2{
-        margin:2em 0em;
+
+    #bannerdesc a{
+        font-size:0.8em;
     }
+
+    body #desc2{
+        text-align:start;
+    }
+
 }
 
-/* desktop */
-@media only screen and (min-width:768px){
-    #bannerdesc{
-        position: absolute;
-        top: 70%;
-        left: 30%;
-        transform: translate(-50%, -50%);
-    }
-    #card-03{
-        display: none;
-    }
+.section{
+    margin:70px 0px;
+}
+
+.desc{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reasonsimg{
+    width:100%;
+}
+
+#desc2{
+    text-align: end;
+}
+
+.packages{
+    margin-top: 6em; 
+    margin-bottom: 5em
+}
+
+.packages h2{
+    text-align: center; 
+    font-weight: bold;
+    margin-bottom:50px;
+}
+
+.packagedesc{
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.packagedesc a{
+    padding: 0.5em 1.25em; 
+    font-size: 1em;
+    
+}
+
+.packages img{
+    width:70%;
 }
