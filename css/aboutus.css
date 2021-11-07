@@ -1,0 +1,153 @@
+.mission-container {
+  background-color: #292e51;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.mission-header {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mission {
+  font-size: 1.2em;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.awards-container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.awards-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.section-header {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.section-text {
+  font-size: 1.4em;
+  margin-top: 10px;
+}
+
+.awards-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ourstory-container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.ourstory-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ourstory-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
+}
+
+.philosophy-container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.philo-img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.section-subheader {
+  font-size: 1.6em;
+  margin-top: 10px;
+}
+
+.aspiration-container {
+  height: 600px;
+  background-image: url(../images/aspirations-bg.png);
+  background-position: 50% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 40px 80px 40px;
+}
+
+.aspirations-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.aspirations-text {
+  font-size: 1.2em;
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mission,
+  .mission-header {
+    width: 80%;
+  }
+
+  .awards-container,
+  .ourstory-container,
+  .philosophy-container,
+  .aspiration-container {
+    padding: 40px 20px;
+    height: fit-content;
+  }
+
+  .awards-container,
+  .philosophy-container {
+    flex-direction: column-reverse;
+  }
+
+  .awards-content,
+  .awards-img,
+  .ourstory-content,
+  .ourstory-img,
+  .philo-img,
+  .aspirations-text {
+    width: 100%;
+  }
+  .ourstory-container {
+    flex-direction: column;
+  }
+  .ourstory-content {
+    padding: 20px 0px;
+  }
+}
