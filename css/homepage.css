@@ -15,12 +15,13 @@
 
 .banner-header {
   font-size: 3em;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
 .banner-subheader {
-  font-size: 1.8em;
-  margin-bottom: 20px;
+  font-size: 1.5em;
+  margin-bottom: 30px;
 }
 
 .banner-apply-cta {
@@ -197,7 +198,7 @@
 
 .holiday-container {
   height: 500px;
-  background-image: url(../images/dark-background-kids.png);
+  background-image: url(../assets/dark-background-kids.png);
   background-position: 50% 30%;
   display: flex;
   flex-direction: row;
@@ -296,14 +297,18 @@
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 4px 0px #dbdbdb;
 }
 
 .teacher-name {
   font-size: 1.2em;
+  margin-top: 10px;
 }
 
 .teacher-message {
   font-size: 1em;
+  margin-top: 10px;
 }
 
 .testimonials-container {
@@ -514,7 +519,7 @@
   }
 
   .testimonials-container {
-    height: fit-content;
+    height: 580px;
   }
 
   .testimonial-image {

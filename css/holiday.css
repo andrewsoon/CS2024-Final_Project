@@ -3,28 +3,32 @@
     flex-direction:column;
     justify-content: center;
     margin:80px auto 0 auto;
+    
 }
 .packages{
-    display:flex;
+    /* display:flex; */
     justify-content: space-evenly;
     margin:70px;
 }
 
 .card{
-    display:flex;
+    /* display:flex; */
     border-radius: 0;
     -webkit-box-shadow: 0px 4px 4px 0px #DBDBDB; 
     box-shadow: 0px 4px 4px 0px #DBDBDB;
+    max-width:250px;
 }
+
 .card-img-top{
-    width:250px;
+    /* width:50%;   */
     align-self: center;
-    margin:20px;
+    margin:30px;
     border-radius: 0;
 
 }
+
 .card-body{
-    position:relative;
+    /* position:relative; */
     padding-bottom: 30px;
 }
 
@@ -42,20 +46,89 @@
     padding:100px;
 }
 
+/* .schedule h2{
+    margin-top:20px;
+} */
 .schcontent{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
 }
 
+.schimg{
+    padding:0;
+}
 .schcontent img{
-    width:300px;
-    height:300px;
+    width:90%;
+    
+    margin: 0 auto;
+    display: block;
+}
+#img1{
+    /* background: url(../assets/details1.png); */
+    background-size: cover;
+    width:90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#img2{
+    /* background: url(../assets/details2.png); */
+    background-size: cover;
+    width:90%;
+    margin: 0 auto;
+    display: block;
+}
+
+#img3{
+    /* background: url(../assets/details3.png); */
+    background-size: cover;
+    width:90%;
+    
+}
+
+@media screen and (max-width:992px) {
+    .card{
+        max-width:200px;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .card{
+        max-width:300px;
+        padding:0;
+        margin: 10px 0;
+    }
+    .schedule{
+        padding:80px;
+    }
+ }
+
+@media screen and (max-width:576px){
+    /* .schcontent img{
+        margin: 0 auto;
+        display: block;
+        width:60%;
+    } */
+    
+    
+    body .schdesc{
+       padding:30px 0 0 0;
+       
+    }
+    .schedule h2{
+        text-align:center;
+    }
+    .schedule{
+        overflow:hidden;
+        height:900px;
+    }
 }
 .schdesc{
     display:flex;
     flex-direction:column;
     
-    padding: 0 50px;
+    padding-left:60px;
 }
 
 #sch1{
