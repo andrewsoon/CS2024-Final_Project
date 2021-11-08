@@ -5,7 +5,8 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 80px;
-  background-image: url(../assets/sign-up.png);
+  background-image: url(../assets/apply-bg.png);
+  background-position: 50% 30%;
 }
 
 .form-header {
@@ -24,6 +25,7 @@
   align-items: center;
   margin: 20px auto;
   width: 90%;
+  justify-content: center;
 }
 
 form {
