@@ -197,7 +197,7 @@
 
 .holiday-container {
   height: 500px;
-  background-image: url(../images/dark-background-kids.png);
+  background-image: url(../assets/dark-background-kids.png);
   background-position: 50% 30%;
   display: flex;
   flex-direction: row;
