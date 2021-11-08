@@ -144,3 +144,38 @@
   text-decoration: none;
   background-color: #fdb542;
 }
+
+@media only screen and (max-width: 768px) {
+  .careers-banner,
+  .jobs-container,
+  .why-work-here-container,
+  .join-us-today {
+    padding: 60px 40px 30px;
+  }
+
+  .job-title-group {
+    flex-direction: column;
+  }
+
+  .job-title {
+    margin-bottom: 10px;
+  }
+
+  .why-work-here-container {
+    min-height: 400px;
+  }
+
+  .reasons-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reason-group {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .reason-img {
+    width: 200px;
+  }
+}
