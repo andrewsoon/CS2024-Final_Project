@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Favicon -->
-    <!-- <link
+    <link
       href="assets/favicon-16x16.png"
       rel="shortcut icon"
       type="image/x-icon"
-    /> -->
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -27,7 +27,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -36,7 +35,7 @@
     />
 
     <link href="css/layoutstyle.css" rel="stylesheet" />
-    <link href="css/whycoding.css" rel="stylesheet" />
+    <link href="css/apply-job.css" rel="stylesheet" />
     <!-- Need Update Title -->
     <title>Smart Skills For The Future - Smart Tuition Pte Ltd</title>
   </head>
@@ -105,78 +104,103 @@
           <a href="#">Contact Us</a>
         </div>
       </div>
-      
-      <div class="banner" id="banner">
-        <img src="assets/stairs.jpg" class="stairsimg" alt="stairs" width="100%"/>
-        <div id="bannerdesc">
-          <h2>
-            Never Too Early To Start
-          </h2>
-          <a class="nav-apply-cta" class="apply-loan-whiteBG" href="applyLoan.html">Apply Now</a>
+      <div class="body">
+        <div class="form-container">
+          <div class="form-header">Be a part of Smart Tutors Today!</div>
+          <div class="element-group">
+            <form>
+              <div class="form-group">
+                <label>Role you are interested in</label>
+                <select
+                  id="test"
+                  class="form-control"
+                  name="form_select"
+                  onchange="showDiv(this)"
+                  required
+                >
+                  <option value="" disabled selected hidden>
+                    Choose a Programme
+                  </option>
+                  <option value="0">Full-time Programming Instructor</option>
+                  <option value="1">Part-time Programming Associate</option>
+                  <option value="2">Part-time Marketing Associate</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Name (as per NRIC)</label>
+                <input
+                  id="parentname"
+                  type="text"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Date of Birth</label>
+                <input
+                  id="childname"
+                  type="date"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Contact Number</label>
+                <input
+                  id="child-age"
+                  type="number"
+                  step="1"
+                  class="form-control"
+                  required
+                  placeholder="(+65) 9876 XXXX"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label>Tell us about of yourself</label>
+                <textarea
+                  class="form-control"
+                  id="applicant-detail"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlFile1">Upload Your CV</label>
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="applicant-CV"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlFile1"
+                  >Upload Cover Letter (Optional)</label
+                >
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="applicant-portfolio"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary">Apply Now</button>
+            </form>
+          </div>
         </div>
       </div>
-
-      <div class="reasons container">
-        <div class="row section">
-          <div class="col-md-6 desc" id="desc1">
-            <h2>CODING IS IMPORTANT</h2>
-            <p>
-              Advantages of learning how to code Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Sem parturient magna a maecenas.
-            </p>
-          </div>
-          <div class="col-md-6" id="img1">
-            <img src="assets/kidcoding.jpg" class="reasonsimg"/>
-          </div>
-        </div>
-
-        <div class="row section">
-          <div class="col-md-6" id="img2">
-            <img src="assets/kidcoding.jpg" class="reasonsimg"/>
-          </div>
-          <div class="col-md-6 desc order-first order-md-0" id="desc2">
-            <h2>CODING IS IMPORTANT</h2>
-            <p>
-              Advantages of learning how to code Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Sem parturient magna a maecenas.
-            </p>
-          </div>
-            
-        </div>
-
-        <div class="row section">
-          <div class="col-md-6 desc" id="desc3" >
-            <h2>CODING IS IMPORTANT</h2>
-            <p>
-              Advantages of learning how to code Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Sem parturient magna a maecenas.
-            </p>
-          </div>
-          <div class="col-md-6" id="img3">
-            <img src="assets/kidcoding.jpg"class="reasonsimg"/>
-          </div>
-        </div>
-      </div>
-        
-      
-      <div class="packages">
-        <h2>Packages Available</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 packagedesc">
-              <img src="assets/kidcoding.jpg"/>
-              <p><br />Ages 6-12<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <a class="nav-apply-cta" class="apply-loan-whiteBG" href="applyLoan.html">Apply Now</a>
-            </div>
-            <div class="col-md-6 packagedesc">
-              <img src="assets/kidcoding.jpg"/>
-              <p><br />Ages 6-12<br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <a class="nav-apply-cta" class="apply-loan-whiteBG" href="applyLoan.html">Apply Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="footer">
         <div class="socials-container">
           <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
