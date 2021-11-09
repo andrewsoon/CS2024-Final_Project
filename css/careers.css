@@ -1,0 +1,181 @@
+.careers-banner {
+  height: 500px;
+  background-image: url(../assets/career-with-us-bg.png);
+  background-position: 50% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fcfcfc;
+  padding: 40px 80px 40px;
+}
+
+.careers-banner-header {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jobs-container {
+  min-height: 800px;
+  padding: 80px;
+  background-color: #cccccc2f;
+}
+
+.job-section-header {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.job-group {
+  padding: 10px 0px 20px;
+}
+
+.job-title-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.apply-now-job {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #d47f7b;
+  padding: 10px 40px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.apply-now-job:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #d66c66;
+}
+
+.job-requirements {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.job-requirements ul li {
+  padding: 5px;
+}
+
+.why-work-here-container {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 40px 80px;
+}
+
+.why-here-header {
+  font-size: 1.8em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.reasons-row {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reason-group {
+  width: 28%;
+  height: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reason-img {
+  width: 280px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.reason {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.join-us-today {
+  background-color: #cccccc2f;
+  height: 400px;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-header {
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.join-us-cta {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #f8ac2f;
+  padding: 10px 40px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.join-us-cta {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fdb542;
+}
+
+@media only screen and (max-width: 768px) {
+  .careers-banner,
+  .jobs-container,
+  .why-work-here-container,
+  .join-us-today {
+    padding: 60px 40px 30px;
+  }
+
+  .job-title-group {
+    flex-direction: column;
+  }
+
+  .job-title {
+    margin-bottom: 10px;
+  }
+
+  .why-work-here-container {
+    min-height: 400px;
+  }
+
+  .reasons-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reason-group {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .reason-img {
+    width: 200px;
+  }
+}
