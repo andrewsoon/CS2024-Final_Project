@@ -3,7 +3,7 @@
     flex-direction:column;
     justify-content: center;
     margin:30px auto 0 auto;
-    background-color: #FBD28E;
+    background-color: #F3F3F3;
 }
 
 .background{
@@ -24,7 +24,7 @@
     
 }
 .card-left{
-    background-color:#F8AC2F;
+    background-color:#2D4159;
     padding:90px 50px;
     display: flex;
     flex-direction: column;
@@ -35,8 +35,12 @@
 
 .card-right{
     padding: 5px 50px;
-    width:400px;
+    width:600px;
     position: relative;
+}
+
+.card-right h6{
+    width:400px;
 }
 .info{
     display:flex;
@@ -45,7 +49,7 @@
 }
 
 p{
-    margin:0 30px;
+    margin:0 10px;
 }
 
 form{
@@ -68,10 +72,10 @@ form{
    padding-bottom:80px;
 }
 
-.card-right a{
-    padding: 8px 25px; 
-    position:absolute; 
-    bottom:0;
+.nav-apply-cta{
+    padding: 8px 25px;
+    position:absolute;
+    bottom:10px;
 }
 
 @media screen and (max-width:1320px) {
@@ -152,7 +156,7 @@ form{
 @media screen and (max-width:768px) {
     .card{
         width:30rem;
-        margin:0 auto;
+        margin:100px auto;
     }
     body .card-left{
         padding:10px;
@@ -180,16 +184,16 @@ form{
     .card-right h2{
         position:relative;
         top:35px;
-        padding-left:90px;
+        
     }
     .card-right h6{
         width:auto;
         position:relative;
         top:40px;
-        padding-left:90px;
+        
     }
     form{
-        /* padding: 30px 0px 30px 90px;     */
+        padding: 50px 0px 30px 0px;    
     }
     .card-left h2{
         display: none;
@@ -199,7 +203,7 @@ form{
 @media screen and (max-width:576px) {
     .card{
         width:20rem;
-        margin:0 auto;
+        margin:100px auto;
     }
     body .card-left{
         padding:10px;
