@@ -74,7 +74,7 @@
 
 #programs{
     margin-top:50px;
-    padding:0;
+    padding:0 50px;
 }
 #programs img{
     width:100%;
@@ -83,37 +83,52 @@
     width:50%;
 }
 
+.title{
+    padding-left:50px;
+}
 h2{
     text-align: center;
 }
 
-#img1{
-    background:url(../assets/placeholder.jpg);
-    background-size: cover;
+.card-img-top{
+    width:250px;
+    align-self: center;
+    border-radius: 0;
+
+}
+
+.servicedesc{
+    display:flex;
+    justify-content: space-evenly;
+    margin:70px;
+}
+
+.card{
+    display:flex;
+    border-radius: 10px;
+}
+
+.servicecard{
+    width:20rem;
+    display:flex;
+    border-radius: 10px;
+    border: 1px solid rgb(185, 181, 181);
+    margin:0 10px;
+}
+
+.servicecard h6{
+    margin-top:8px;
+}
+
+.card-body{
+    position:relative;
+    padding-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
-}
-
-#img2{
-    background:url(../assets/placeholder.jpg);
-    background-size: cover;
     
-}
-
-#img3{
-    background:url(../assets/placeholder.jpg);
-    background-size: cover;
-    
-}
-
-#accordionExample3{
-    padding-right:0;   
-}
-
-#accordionExample1{
-    padding-left:0;
-}
-#accordionExample2{
-    padding-right:0;
 }
 
 @media screen and (max-width: 992px) {
@@ -132,6 +147,9 @@ h2{
     }
     .method{
         padding: 0 30px;
+    }
+    .img{
+        padding:0;
     }
   }
 
@@ -153,22 +171,22 @@ h2{
         padding:0 10px;
     }
     
-    #accordionExample3, body #accordionExample2{
-        padding-right:15px;
+    .title{
+        padding:0;
+    }
+    body .accordion{
+        padding:0;
         width:100%;
     }
-    #accordionExample1{
-        padding-left:15px;
-        width:100%;
+    .accordion-button{
+        padding-left:0;
     }
-    #img1, #img2, #img3{
-        margin: 0 auto;
-        height:300px;
-        width:540px;
+    .title h3{
+        padding-top:20px;
     }
   }
 
-   @media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) {
     #banner-card{
         position:absolute;
         top:25%;
@@ -184,17 +202,10 @@ h2{
     .method p, h4{
         text-align:center;
     }
-     #img1, #img2, #img3{
-        margin: 0 auto;
-        height:300px;
-        width:95%;
-    }
-    #programs{
-        width:90%;
-    }
+    
     
   }
-    
+
   @media screen and (max-width:480px){
       #banner-card{
           width:18rem;
@@ -203,11 +214,30 @@ h2{
           top:215px;
           left:90px;
       }
-      #img1, #img2, #img3{
-        margin: 0 auto;
-        height:300px;
-        width:92%;
-    }
+    
+}
+
+
+.packagelink{
+    position: absolute;
+    bottom: 10px;
+}
+
+.method p{
+    font-size:12px;
+}
+
+.method i{
+    color:#f8ac2f;
+}
+
+.servicedesc :hover{
+    transform: scale(1.05);
+}
+
+
+h2{
+    text-align: center;
 }
 
 .schedule{
@@ -218,22 +248,15 @@ h2{
     justify-content: center;
 }
 
-/* 
-#schimg{
-    padding-right:20px;
+.schcontent{
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
-
-#schdesc{
+.schdesc{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    
-} */
-
-
-
+}
 #lastcall{
     background-color: #281b36;
     height: auto;
@@ -250,4 +273,22 @@ h2{
 .stairsimg{
     opacity: 0.5;
 
+}
+
+.accordion-button:not(.collapsed){
+    color:#333765;
+    background-color: transparent;
+}
+
+.accordion-button{
+    font-weight: bold;
+    
+}
+
+.accordion-item{
+    border:none;
+}
+
+.accordion-button.collapsed{
+    color:black;
 }

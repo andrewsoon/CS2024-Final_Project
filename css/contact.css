@@ -13,8 +13,7 @@
     height:500px;
     width:900px;
     position:absolute;
-    left:250px;
-    
+    left:250px;   
 }
 .card{
     display:flex;
@@ -67,4 +66,180 @@ form{
 }
 #exampleInputMessage1{
    padding-bottom:80px;
+}
+
+.card-right a{
+    padding: 8px 25px; 
+    position:absolute; 
+    bottom:0;
+}
+
+@media screen and (max-width:1320px) {
+    .background{
+        left:280px;
+        width:800px;
+    }
+    body .card-left{
+        padding:90px 40px;
+    }
+    .form-control{
+        width:450px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .background{
+        left:250px;
+        width:700px;
+    }
+    body .card-left{
+        padding:90px 40px;
+        
+    }
+    .form-control{
+        width:330px;
+    }
+    .card{
+        margin-left:150px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .background{
+        display:none;
+    }
+
+    .card{
+        margin:0 auto;
+    }
+    body .card-left{
+        padding:10px;
+        text-align: center;
+        align-items: center;
+    }
+    body .card-right{
+        display:flex;
+    }
+    .info{
+        display:flex;
+        text-align: center;
+        padding-left:30px;
+    }
+    
+    .form-control{
+        width:430px;
+    }
+    body .card-right a{
+       position:relative;
+    }
+    .card-right h2{
+        position:relative;
+        top:35px;
+    }
+    .card-right h6{
+        position:absolute;
+        top:130px;
+        width:140px;
+    }
+    form{
+        padding: 30px 0px 30px 90px;    
+    }
+    .card-left h2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card{
+        width:30rem;
+        margin:0 auto;
+    }
+    body .card-left{
+        padding:10px;
+        text-align: center;
+        align-items: center;
+    }
+    body .card-right{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .info{
+        display:flex;
+        text-align: center;
+        padding-left:30px;
+    }
+    
+    .form-control{
+        width:230px;
+    }
+    body .card-right a{
+       position:relative;
+    }
+    .card-right h2{
+        position:relative;
+        top:35px;
+        padding-left:90px;
+    }
+    .card-right h6{
+        width:auto;
+        position:relative;
+        top:40px;
+        padding-left:90px;
+    }
+    form{
+        /* padding: 30px 0px 30px 90px;     */
+    }
+    .card-left h2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .card{
+        width:20rem;
+        margin:0 auto;
+    }
+    body .card-left{
+        padding:10px;
+        text-align: center;
+        align-items: center;
+    }
+    body .card-right{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .info{
+        display:flex;
+        text-align: center;
+        padding-left:30px;
+    }
+    
+    .form-control{
+        width:230px;
+    }
+    body .card-right a{
+       position:relative;
+    }
+    .card-right h2{
+        position:relative;
+        top:35px;
+        padding:0;
+    }
+    .card-right h6{
+        width:auto;
+        position:relative;
+        top:40px;
+        padding:0 10px;
+    }
+    form{
+        padding:30px 0;
+    }
+    .card-left h2{
+        display: none;
+    }
+
 }
