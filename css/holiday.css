@@ -1,144 +1,139 @@
-.body{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    margin:80px auto 0 auto;
-    
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px auto 0 auto;
 }
-.packages{
-    /* display:flex; */
-    justify-content: space-evenly;
-    margin:70px;
-}
-
-.card{
-    /* display:flex; */
-    border-radius: 0;
-    -webkit-box-shadow: 0px 4px 4px 0px #DBDBDB; 
-    box-shadow: 0px 4px 4px 0px #DBDBDB;
-    max-width:250px;
+.packages {
+  /* display:flex; */
+  justify-content: space-evenly;
+  margin: 70px;
 }
 
-.card-img-top{
-    /* width:50%;   */
-    align-self: center;
-    margin:30px;
-    border-radius: 0;
-
+.card {
+  /* display:flex; */
+  border-radius: 0;
+  -webkit-box-shadow: 0px 4px 4px 0px #dbdbdb;
+  box-shadow: 0px 4px 4px 0px #dbdbdb;
+  max-width: 250px;
 }
 
-.card-body{
-    /* position:relative; */
-    padding-bottom: 30px;
+.card-img-top {
+  /* width:50%;   */
+  align-self: center;
+  margin: 30px;
+  border-radius: 0;
 }
 
-.packagelink{
-    position: absolute;
-    bottom: 10px;
+.card-body {
+  /* position:relative; */
+  padding-bottom: 30px;
 }
 
-.schedule{
-    background-color:#6CB9C3;
-    height:500px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    padding:100px;
+.packagelink {
+  position: absolute;
+  bottom: 10px;
+}
+
+.schedule {
+  background-color: #6cb9c3;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  scroll-margin-top: 100px;
 }
 
 /* .schedule h2{
     margin-top:20px;
 } */
-.schcontent{
-    display:flex;
-    justify-content: space-evenly;  
+.schcontent {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.schimg{
-    padding:0;
+.schimg {
+  padding: 0;
 }
-.schcontent img{
-    width:90%;
-    
-    margin: 0 auto;
-    display: block;
+.schcontent img {
+  width: 90%;
+
+  margin: 0 auto;
+  display: block;
 }
-#img1{
-    /* background: url(../assets/details1.png); */
-    background-size: cover;
-    width:90%;
-    margin: 0 auto;
-    display: block;
+#img1 {
+  /* background: url(../assets/details1.png); */
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
-#img2{
-    /* background: url(../assets/details2.png); */
-    background-size: cover;
-    width:90%;
-    margin: 0 auto;
-    display: block;
+#img2 {
+  /* background: url(../assets/details2.png); */
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
-#img3{
-    /* background: url(../assets/details3.png); */
-    background-size: cover;
-    width:90%;
-    
+#img3 {
+  /* background: url(../assets/details3.png); */
+  background-size: cover;
+  width: 90%;
 }
 
-@media screen and (max-width:992px) {
-    .card{
-        max-width:200px;
-    }
-    
+@media screen and (max-width: 992px) {
+  .card {
+    max-width: 200px;
+  }
 }
 
-@media screen and (max-width:768px){
-    .card{
-        max-width:300px;
-        padding:0;
-        margin: 10px 0;
-    }
-    .schedule{
-        padding:80px;
-    }
- }
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 300px;
+    padding: 0;
+    margin: 10px 0;
+  }
+  .schedule {
+    padding: 80px;
+  }
+}
 
-@media screen and (max-width:576px){
-    /* .schcontent img{
+@media screen and (max-width: 576px) {
+  /* .schcontent img{
         margin: 0 auto;
         display: block;
         width:60%;
     } */
-    
-    
-    body .schdesc{
-       padding:30px 0 0 0;
-       
-    }
-    .schedule h2{
-        text-align:center;
-    }
-    .schedule{
-        overflow:hidden;
-        height:900px;
-    }
+
+  body .schdesc {
+    padding: 30px 0 0 0;
+  }
+  .schedule h2 {
+    text-align: center;
+  }
+  .schedule {
+    overflow: hidden;
+    height: 900px;
+  }
 }
-.schdesc{
-    display:flex;
-    flex-direction:column;
-    
-    padding-left:60px;
+.schdesc {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 60px;
 }
 
-#sch1{
-    background-color: #6CB9C3;
+#sch1 {
+  background-color: #6cb9c3;
 }
 
-#sch2{
-    background-color: #F8AC2F;
+#sch2 {
+  background-color: #f8ac2f;
 }
 
-#sch3{
-    background-color: #A4D57D;
+#sch3 {
+  background-color: #a4d57d;
 }
