@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
+  padding: 30px;
 }
 
 .section-header {
@@ -147,7 +148,8 @@
   .ourstory-container {
     flex-direction: column;
   }
-  .ourstory-content {
+  .ourstory-content,
+  .awards-content {
     padding: 20px 0px;
   }
 }
