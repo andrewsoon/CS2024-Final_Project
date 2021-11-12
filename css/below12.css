@@ -1,22 +1,22 @@
-.body{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#banner{
-    margin:80px auto;
-    background-color: black;
+#banner {
+  margin: 80px auto;
+  background-color: black;
 }
 
-#banner-left{
-    height:500px;
-    padding: auto 0 auto 0;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../assets/under12.png);
-    opacity:0.4;
+#banner-left {
+  height: 500px;
+  padding: auto 0 auto 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/under12.webp);
+  opacity: 0.4;
 }
 
 /* #banner-right{
@@ -37,95 +37,97 @@
 }
 */
 
-#banner-card{
-    position:absolute;
-    top:400px;
-    right:170px;
-    padding-bottom:20px;
-    border-radius: 0;
-    width:22rem; 
-    background-color: rgb(255, 255, 255, 0.8);  
+#banner-card {
+  position: absolute;
+  top: 400px;
+  right: 170px;
+  padding-bottom: 20px;
+  border-radius: 0;
+  width: 22rem;
+  background-color: rgb(255, 255, 255, 0.8);
 }
 
-#banner-card h6{
-    color:gray;
+#banner-card h6 {
+  color: gray;
 }
 
-.card-link{
-    background-color:#f8ac2f;
-    padding:10px 20px;
-    color:white;
-    position:absolute;
-    top:110px;
-    left:130px;
-    border-radius: 20px;
+.card-link {
+  background-color: #f8ac2f;
+  padding: 10px 20px;
+  color: white;
+  position: absolute;
+  top: 110px;
+  left: 130px;
+  border-radius: 20px;
 }
 
-.method{
-    padding: 0 70px;
-    text-align: center;
-    
+.method {
+  padding: 0 70px;
+  text-align: center;
 }
 
-.method p{
-    font-size:12px;
+.method p {
+  font-size: 12px;
 }
 
-.method i{
-    color:#f8ac2f;
+.method i {
+  color: #f8ac2f;
 }
 
-#programs{
-    margin-top:50px;
-    padding:0;
+#programs {
+  margin-top: 50px;
+  padding: 0;
 }
-#programs img{
-    width:100%;
+#programs img {
+  width: 100%;
 }
-.accordion{
-    width:50%;
-}
-
-h2{
-    text-align: center;
+.accordion {
+  width: 50%;
 }
 
-#btn1, #btn2, #btn3{
-    background-color: #6CB9C3;
+h2 {
+  text-align: center;
 }
 
-#btn4, #btn5, #btn6{
-    background-color: #F8AC2F;
+#btn1,
+#btn2,
+#btn3 {
+  background-color: #6cb9c3;
 }
 
-#btn7, #btn8, #btn9{
-    background-color: #6BBD5E;
+#btn4,
+#btn5,
+#btn6 {
+  background-color: #f8ac2f;
 }
 
-.accordion-body{
-    height: 370px; 
-    
+#btn7,
+#btn8,
+#btn9 {
+  background-color: #6bbd5e;
 }
 
-#accordionExample3 h2{
-    background-color:#6CB9C3 ;
+.accordion-body {
+  height: 370px;
 }
 
-.schedule{
-    /* background-color:#6CB9C3; */
-    height:450px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    
-}
-.schedule h3{
-    text-align: center;
-    
+#accordionExample3 h2 {
+  background-color: #6cb9c3;
 }
 
-.schedule p{
-    padding: 0 30px;
+.schedule {
+  /* background-color:#6CB9C3; */
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.schedule h3 {
+  text-align: center;
+}
+
+.schedule p {
+  padding: 0 30px;
 }
 /* 
 #schimg{
@@ -141,159 +143,156 @@ h2{
     
 } */
 
-
-
-#lastcall{
-    background-color: #281b36;
-    height: auto;
-    width: 100%;
-    color: #fcfcfc;
-    position:relative;
+#lastcall {
+  background-color: #281b36;
+  height: auto;
+  width: 100%;
+  color: #fcfcfc;
+  position: relative;
 }
-#bannerdesc{
-    position: absolute;
-    top: 70%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+#bannerdesc {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
 }
 
-.testimg{
-    padding: 0 40px;
+.testimg {
+  padding: 0 40px;
 }
 /* .stairsimg{
     opacity: 0.5;
 
 } */
 
-#schedulefees{
-    padding:0 40px;
+#schedulefees {
+  padding: 0 40px;
 }
 
-.scheduledesc{
-    border-right:1px solid black;
+.scheduledesc {
+  border-right: 1px solid black;
 }
-#schedule2{
-    display:none;
+#schedule2 {
+  display: none;
 }
-@media screen and (max-width:1200px) {
-    .accordion-body{
-        height:285px;
-        overflow-y: scroll;
-    }
-    .schedule p{
-        padding: 10px;
-    }
-    #schedulefees{
-        padding:0 20px;
-    }
+@media screen and (max-width: 1200px) {
+  .accordion-body {
+    height: 285px;
+    overflow-y: scroll;
+  }
+  .schedule p {
+    padding: 10px;
+  }
+  #schedulefees {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    #banner-card{
-        position:absolute;
-        top:40%;
-        left:50%;
-        padding-bottom:20px;
-        border-radius: 0;
-        width:22rem;    
-        background-color: rgb(255, 255, 255, 0.8);
-        transform: translate(-50%, -50%);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method{
-        padding: 0 30px;
-    }
-    .accordion-body{
-        height:170px;
-    }
-    .schedule p{
-        padding:0;
-    }
-    #schedulefees{
-        padding:0;
-    }
-    #lessonheader, #feesheader{
-        margin-bottom:40px;
-    }
+  #banner-card {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding-bottom: 20px;
+    border-radius: 0;
+    width: 22rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method {
+    padding: 0 30px;
+  }
+  .accordion-body {
+    height: 170px;
+  }
+  .schedule p {
+    padding: 0;
+  }
+  #schedulefees {
+    padding: 0;
+  }
+  #lessonheader,
+  #feesheader {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #banner-card {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding-bottom: 20px;
+    border-radius: 0;
+    width: 22rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method {
+    padding: 0 10px;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .accordion-body {
+    height: auto;
+  }
+  #programs img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .scheduledesc {
+    border: 0;
+  }
+  .schedule {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  #schedule1 {
+    display: none;
+  }
+  #schedule2 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #banner-card {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    padding-bottom: 20px;
+    border-radius: 0;
+    width: 22rem;
+    background-color: rgb(255, 255, 255, 0.8);
+    transform: translate(-50%, -50%);
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method p,
+  h4 {
+    text-align: center;
   }
 
-  @media screen and (max-width: 768px) {
-    #banner-card{
-        position:absolute;
-        top:40%;
-        left:50%;
-        padding-bottom:20px;
-        border-radius: 0;
-        width:22rem;    
-        background-color: rgb(255, 255, 255, 0.8);
-        transform: translate(-50%, -50%);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method{
-        padding:0 10px;
-    }
-    .accordion{
-        width:100%;
-    }
-    .accordion-body{
-        height: auto;
-    }
-    #programs img{
-        margin: 0 auto;
-        width:100%;
-    }
-    .scheduledesc{
-        border:0;    
-    }
-    .schedule{
-        margin-top:130px;
-        margin-bottom:130px;
-    }
-    #schedule1{
-        display: none;
-    }
-    #schedule2{
-        display:block;
-        text-align: center;
-    }
+  #programs {
+    width: 90%;
   }
+}
 
-   @media screen and (max-width: 576px) {
-    #banner-card{
-        position:absolute;
-        top:40%;
-        left:50%;
-        padding-bottom:20px;
-        border-radius: 0;
-        width:22rem;    
-        background-color: rgb(255, 255, 255, 0.8);
-        transform: translate(-50%, -50%);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method p, h4{
-        text-align:center;
-    }
-    
-    #programs{
-        width:90%;
-    }
-    
+@media screen and (max-width: 480px) {
+  #banner-card {
+    width: 19rem;
   }
-    
-  @media screen and (max-width:480px){
-      
-      #banner-card{
-          width:19rem;
-      }
-      body .card-link{
-          top:130px;
-          left:90px;
-      }
-     
-    }
+  body .card-link {
+    top: 130px;
+    left: 90px;
+  }
+}
