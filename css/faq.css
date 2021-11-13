@@ -32,10 +32,11 @@
 }
 
 .banner {
-    background-color: #281b36;
+    background-color: #E9E9E9;;
     height: auto;
+    min-height:400px;
     width: 100%;
-    color: #fcfcfc;
+    color: black;
     position:relative;
     margin:70px 0px 0px 0px;
     text-align: center;

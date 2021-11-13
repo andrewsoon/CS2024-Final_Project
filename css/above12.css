@@ -285,4 +285,8 @@ h2{
       #banner-left img{
         transform: translate(-15%, 0%);
       }
+      .schedule{
+        margin-top:200px;
+        margin-bottom:200px;
+    }
     }
