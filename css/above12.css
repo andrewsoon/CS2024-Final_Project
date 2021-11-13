@@ -282,14 +282,14 @@ h2 {
   h4 {
     text-align: center;
   }
-
-  #programs {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #banner-left img {
-    transform: translate(-15%, 0%);
-  }
-}
+    
+  @media screen and (max-width:480px){
+      
+      #banner-left img{
+        transform: translate(-15%, 0%);
+      }
+      .schedule{
+        margin-top:200px;
+        margin-bottom:200px;
+    }
+    }

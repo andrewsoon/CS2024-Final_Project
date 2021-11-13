@@ -175,8 +175,9 @@ h2 {
 
 } */
 
-#schedulefees {
-  padding: 0 40px;
+#schedulefees{
+    padding:0 40px;
+    text-align: center;
 }
 
 .scheduledesc {
@@ -284,25 +285,18 @@ h2 {
     background-color: rgb(255, 255, 255, 0.8);
     transform: translate(-50%, -50%);
   }
-  #banner-card h6 {
-    color: black;
-  }
-  .method p,
-  h4 {
-    text-align: center;
-  }
-
-  #programs {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #banner-card {
-    width: 19rem;
-  }
-  body .card-link {
-    top: 130px;
-    left: 90px;
-  }
-}
+    
+  @media screen and (max-width:480px){
+      
+      #banner-card{
+          width:19rem;
+      }
+      body .card-link{
+          top:130px;
+          left:90px;
+      }
+      .schedule{
+          margin-top:200px;
+          margin-bottom:200px;
+      }
+    }

@@ -231,28 +231,4 @@ form {
     text-align: center;
     padding-left: 30px;
   }
-
-  .form-control {
-    width: 230px;
-  }
-  body .card-right a {
-    position: relative;
-  }
-  .card-right h2 {
-    position: relative;
-    top: 35px;
-    padding: 0;
-  }
-  .card-right h6 {
-    width: auto;
-    position: relative;
-    top: 40px;
-    padding: 0 10px;
-  }
-  form {
-    padding: 30px 0;
-  }
-  .card-left h2 {
-    display: none;
-  }
 }
