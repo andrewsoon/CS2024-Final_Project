@@ -1,7 +1,6 @@
 .body {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  
 }
 
 .banner {
@@ -33,13 +32,13 @@
 #bannerdesc {
   position: absolute;
   top: 70%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -50%);
 }
 
 #bannerdesc h2 {
   margin-bottom: 0.8em;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -58,7 +57,7 @@
     text-align: center;
   }
   #bannerdesc h2 {
-    font-size: 1em;
+    font-size: 1.8em;
   }
 
   #bannerdesc a {
@@ -75,17 +74,13 @@
 }
 
 .desc {
-  display: flex;
-  flex-direction: column;
+  
   justify-content: center;
+  margin:auto 0;
 }
 
 .reasonsimg {
   width: 100%;
-}
-
-#desc2 {
-  text-align: end;
 }
 
 .packages {
