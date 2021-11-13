@@ -38,7 +38,7 @@
 .banner-apply-cta:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #fdb542;
+  background-color: #474d92;
 }
 
 .banner-image {
@@ -187,7 +187,7 @@
 .package-link:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #fdb542;
+  background-color: #474d92;
 }
 
 .package-container2 {
@@ -242,7 +242,7 @@
 .holiday-link:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #fdb542;
+  background-color: #474d92;
 }
 
 .holiday-programs {
@@ -395,7 +395,6 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   color: #fff !important;
