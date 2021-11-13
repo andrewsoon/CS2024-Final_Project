@@ -17,6 +17,7 @@
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
 .banner-subheader {
@@ -26,10 +27,10 @@
 
 .banner-apply-cta {
   text-decoration: none;
-  color: #fff;
+  color: #333765;
   font-weight: bold;
   border-radius: 20px;
-  background-color: #f8ac2f;
+  background-color: #fff;
   padding: 15px 40px;
   width: fit-content;
 }
@@ -175,10 +176,10 @@
 
 .package-link {
   text-decoration: none;
-  color: #fff;
+  color: #333765;
   font-weight: bold;
   border-radius: 15px;
-  background-color: #f8ac2f;
+  background-color: #fff;
   padding: 15px 40px;
   width: fit-content;
 }
@@ -191,7 +192,7 @@
 
 .package-container2 {
   margin-top: 30px;
-  background-color: #2bbf9c;
+  background-color: #1f9191;
   border-radius: 20px;
   padding: 40px 80px 50px;
 }
@@ -230,10 +231,10 @@
 
 .holiday-link {
   text-decoration: none;
-  color: #fff;
+  color: #333765;
   font-weight: bold;
   border-radius: 20px;
-  background-color: #f8ac2f;
+  background-color: #fff;
   padding: 15px 40px;
   width: fit-content;
 }
@@ -398,15 +399,6 @@
 .prev:hover,
 .next:hover {
   color: #fff !important;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 .active {

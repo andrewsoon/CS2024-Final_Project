@@ -122,8 +122,23 @@
 }
 
 .header-nav-whiteBG:hover {
-  color: #333765;
+  color: #6f3888;
   text-decoration: none;
+}
+
+.nav-apply-cta-dark {
+  text-decoration: none;
+  color: #333765;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 0px 20px;
+  width: fit-content;
+}
+
+.nav-apply-cta-dark:hover {
+  text-decoration: none;
+  color: #6f3888;
 }
 
 .nav-apply-cta {
@@ -131,7 +146,7 @@
   color: #fff;
   font-weight: bold;
   border-radius: 20px;
-  background-color: #f8ac2f;
+  background-color: #333765;
   padding: 0px 20px;
   width: fit-content;
 }
@@ -139,7 +154,7 @@
 .nav-apply-cta:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #fac46d;
+  background-color: #fdb542;
 }
 
 #logo {

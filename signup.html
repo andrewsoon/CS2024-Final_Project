@@ -4,7 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <meta
+      name="description"
+      content="Smart Tuition is the No.1 center for teaching young minds how to code. Start your Free Trial today!"
+    />
     <!-- Favicon -->
     <link
       href="assets/favicon-16x16.webp"
@@ -40,13 +43,18 @@
     <!-- Need Update Title -->
     <title>Smart Skills For The Future - Smart Tuition Pte Ltd</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZ8M1TP60J"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HZ8M1TP60J"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-HZ8M1TP60J');
+      gtag("config", "G-HZ8M1TP60J");
     </script>
   </head>
   <body>
@@ -194,86 +202,51 @@
                   id="test"
                   class="form-control"
                   name="form_select"
-                  onchange="showDiv(this)"
+                  onchange="showDay(this)"
                   required
                 >
                   <option value="" disabled selected hidden>
                     Choose a Programme
                   </option>
-                  <option value="0">Below 12</option>
-                  <option value="1">Above 12</option>
-                  <option value="2">Holiday</option>
-                  <option value="3">Free Trial</option>
+                  <option value="0">Below 12 (Scratch Programming)</option>
+                  <option value="0">Below 12 (Game Development)</option>
+                  <option value="0">Below 12 (Young Computer Scientist)</option>
+                  <option value="0">Above 12 (Python)</option>
+                  <option value="0">Above 12 (Game Development)</option>
+                  <option value="0">Above 12 (Html & CSS)</option>
+                  <option value="1">Holiday (Lego Robotics)</option>
+                  <option value="1">Holiday (Minecraft Game Design)</option>
+                  <option value="1">Holiday (Roblox Game Design)</option>
+                  <option value="2">Free Trial</option>
                 </select>
               </div>
-              <div class="form-group" id="below12">
-                <label>Timeslot of Lesson</label>
+              <div class="form-group" id="classes">
+                <label>Classes Available</label>
                 <select
                   id="test"
                   class="form-control"
                   name="form_select"
+                  aria-describedby="classhelp"
+                  onchange="showClass(this)"
                   required
                 >
                   <option value="" disabled selected hidden>
-                    Choose a Timeslot
+                    Choose a class
                   </option>
-                  <option value="0">Time1</option>
-                  <option value="1">Time2</option>
-                  <option value="2">Time3</option>
-                  <option value="3">Time4</option>
+                  <option value="0">Class A</option>
+                  <option value="1">Class B</option>
+                  <option value="2">Class C</option>
+                  <option value="3">Class D</option>
+                  <option value="4">Class E</option>
+                  <option value="5">Class F</option>
+                  <option value="6">Class G</option>
                 </select>
-              </div>
-              <div class="form-group" id="above12">
-                <label>Timeslot of Lesson</label>
-                <select
-                  id="test"
-                  class="form-control"
-                  name="form_select"
-                  required
+                <small id="classhelp" class="form-text text-muted"
+                  >Please refer to the respective class schedules for class
+                  timings.</small
                 >
-                  <option value="" disabled selected hidden>
-                    Choose a Timeslot
-                  </option>
-                  <option value="0">Time1</option>
-                  <option value="1">Time2</option>
-                  <option value="2">Time3</option>
-                  <option value="3">Time4</option>
-                </select>
               </div>
-              <div class="form-group" id="holiday">
-                <label>Timeslot of Lesson</label>
-                <select
-                  id="test"
-                  class="form-control"
-                  name="form_select"
-                  required
-                >
-                  <option value="" disabled selected hidden>
-                    Choose a Timeslot
-                  </option>
-                  <option value="0">Time1</option>
-                  <option value="1">Time2</option>
-                  <option value="2">Time3</option>
-                  <option value="3">Time4</option>
-                </select>
-              </div>
-              <div class="form-group" id="freetrial">
-                <label>Timeslot of Lesson</label>
-                <select
-                  id="test"
-                  class="form-control"
-                  name="form_select"
-                  required
-                >
-                  <option value="" disabled selected hidden>
-                    Choose a Timeslot
-                  </option>
-                  <option value="0">Time1</option>
-                  <option value="1">Time2</option>
-                  <option value="2">Time3</option>
-                  <option value="3">Time4</option>
-                </select>
-              </div>
+
               <button type="submit" class="btn btn-primary">Sign Up</button>
             </form>
           </div>
