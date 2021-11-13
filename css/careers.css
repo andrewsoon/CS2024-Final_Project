@@ -1,6 +1,6 @@
 .careers-banner {
   height: 500px;
-  background-image: url(../assets/career-with-us-bg.png);
+  background-image: url(../assets/career-with-us-bg.webp);
   background-position: 50% 30%;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../assets/join-us-bg.png);
+  background-image: url(../assets/join-us-bg.webp);
   background-position: 50% 30%;
 }
 

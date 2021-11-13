@@ -95,7 +95,7 @@
 
 .aspiration-container {
   height: 600px;
-  background-image: url(../assets/aspirations-bg.png);
+  background-image: url(../assets/aspirations-bg.webp);
   background-position: 50% 0%;
   display: flex;
   flex-direction: column;
