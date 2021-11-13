@@ -2,29 +2,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: white;
 }
 
 #banner {
   margin: 80px auto;
+  background: #999999;
 }
 
 #banner-left {
-  height: 400px;
-  background-color: black;
-  padding: auto 0 auto 0;
+  height: 500px;
+  padding: 0;
   overflow: hidden;
-  background-size: cover;
-  background-position: center;
-  background-image: url(../assets/below12image.webp);
+  /* background-size: contain;
+    background-position: center;
+    background-image: url(../assets/above12.png); */
+  opacity: 0.6;
 }
 
-#banner-right {
-  background-color: #16182b;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-  padding: 20px 150px;
-}
+/* #banner-right{
+    background-color:#16182b;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding:20px 150px;
+
+} 
 
 #banner-right span {
   margin: 0 10px;
@@ -33,35 +36,44 @@
 #banner-right i {
   color: white;
 }
+*/
 #banner-card {
   position: absolute;
-  top: 150px;
-  right: 180px;
-  padding: 15px 10px;
-  border-radius: 0;
-  width: 28rem;
-}
-
-#banner-card h6 {
-  color: gray;
+  top: 350px;
+  right: 250px;
+  padding-bottom: 20px;
+  width: 22rem;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: right;
 }
 
 .card-link {
-  background-color: #f8ac2f;
-  padding: 10px 20px;
-  color: white;
+  background-color: #fff;
+  padding: 10px 30px;
+  color: #281b36;
+  font-weight: bold;
   position: absolute;
-  top: 160px;
-  left: 170px;
+  top: 110px;
+  text-align: auto;
+  right: 35px;
+  border-radius: 20px;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fac46d;
 }
 
 .method {
-  padding: 0 70px;
+  padding: 0 30px;
   text-align: center;
 }
 
 .method p {
-  font-size: 12px;
+  font-size: 0.9em;
 }
 
 .method i {
@@ -70,7 +82,7 @@
 
 #programs {
   margin-top: 50px;
-  padding: 0 50px;
+  padding: 0;
 }
 #programs img {
   width: 100%;
@@ -79,173 +91,68 @@
   width: 50%;
 }
 
-.title {
-  padding-left: 50px;
-}
 h2 {
   text-align: center;
 }
 
-.card-img-top {
-  width: 250px;
-  align-self: center;
-  border-radius: 0;
+#btn1,
+#btn2,
+#btn3 {
+  background-color: #6cb9c3;
 }
 
-.servicedesc {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 70px;
+#btn4,
+#btn5,
+#btn6 {
+  background-color: #f8ac2f;
 }
 
-.card {
-  display: flex;
-  border-radius: 10px;
+#btn7,
+#btn8,
+#btn9 {
+  background-color: #6bbd5e;
 }
 
-.servicecard {
-  width: 20rem;
-  display: flex;
-  border-radius: 10px;
-  border: 1px solid rgb(185, 181, 181);
-  margin: 0 10px;
+.accordion-body {
+  height: 370px;
 }
 
-.servicecard h6 {
-  margin-top: 8px;
+#accordionExample3 h2 {
+  background-color: #6cb9c3;
 }
 
-.card-body {
-  position: relative;
-  padding-bottom: 30px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-@media screen and (max-width: 992px) {
-  #banner-card {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    padding: 15px 10px;
-    border-radius: 0;
-    width: 28rem;
-    background-color: rgb(255, 255, 255, 0.8);
-    transform: translate(-50%, -50%);
-  }
-  #banner-card h6 {
-    color: black;
-  }
-  .method {
-    padding: 0 30px;
-  }
-  .img {
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #banner-card {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    padding: 15px 10px;
-    border-radius: 0;
-    width: 28rem;
-    transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255, 0.8);
-  }
-  #banner-card h6 {
-    color: black;
-  }
-  .method {
-    padding: 0 10px;
-  }
-
-  .title {
-    padding: 0;
-  }
-  body .accordion {
-    padding: 0;
-    width: 100%;
-  }
-  .accordion-button {
-    padding-left: 0;
-  }
-  .title h3 {
-    padding-top: 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  #banner-card {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    padding: 15px 10px;
-    border-radius: 0;
-    width: 28rem;
-    background-color: rgb(255, 255, 255, 0.8);
-  }
-  #banner-card h6 {
-    color: black;
-  }
-  .method p,
-  h4 {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  #banner-card {
-    width: 18rem;
-  }
-  body .card-link {
-    top: 215px;
-    left: 90px;
-  }
-}
-
-.packagelink {
-  position: absolute;
-  bottom: 10px;
-}
-
-.method p {
-  font-size: 12px;
-}
-
-.method i {
-  color: #f8ac2f;
-}
-
-.servicedesc :hover {
-  transform: scale(1.05);
-}
-
-h2 {
-  text-align: center;
+.accordion-button:not(.collapsed) {
+  color: #000;
 }
 
 .schedule {
-  background-color: #6cb9c3;
+  /* background-color:#6CB9C3; */
   height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.schedule h3 {
+  text-align: center;
+}
 
-.schcontent {
-  display: flex;
-  justify-content: space-evenly;
+.schedule p {
+  padding: 0 30px;
 }
-.schdesc {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* 
+#schimg{
+    padding-right:20px;
+    display:flex;
+    justify-content: flex-end;
 }
+
+#schdesc{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+} */
+
 #lastcall {
   background-color: #281b36;
   height: auto;
@@ -259,23 +166,130 @@ h2 {
   left: 30%;
   transform: translate(-50%, -50%);
 }
-.stairsimg {
-  opacity: 0.5;
+
+.testimg {
+  padding: 0 40px;
+}
+/* .stairsimg{
+    opacity: 0.5;
+
+} */
+
+#schedulefees {
+  text-align: center;
 }
 
-.accordion-button:not(.collapsed) {
-  color: #333765;
-  background-color: transparent;
+.scheduledesc {
+  border-right: 1px solid black;
+}
+#schedule2 {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .accordion-body {
+    height: 285px;
+    overflow-y: scroll;
+  }
+  .schedule p {
+    padding: 10px;
+  }
+  #schedulefees {
+    padding: 0 20px;
+  }
+  #banner-card {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    padding-bottom: 20px;
+    /* border: none;
+        color:white; */
+    width: 22rem;
+    transform: translate(-50%, -50%);
+  }
 }
 
-.accordion-button {
-  font-weight: bold;
+@media screen and (max-width: 992px) {
+  #banner-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 20px;
+    /* border: none;
+        color:white; */
+    width: 34rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .card-link {
+    position: relative;
+    top: 10px;
+    right: auto;
+  }
+  .method {
+    padding: 0 30px;
+  }
+  .accordion-body {
+    height: 170px;
+  }
+  .schedule p {
+    padding: 0;
+  }
+  #schedulefees {
+    padding: 0;
+  }
+  #lessonheader,
+  #feesheader {
+    margin-bottom: 40px;
+  }
 }
 
-.accordion-item {
-  border: none;
+@media screen and (max-width: 768px) {
+  .method {
+    padding: 0 10px;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .accordion-body {
+    height: auto;
+  }
+  #programs img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .scheduledesc {
+    border: 0;
+  }
+  .schedule {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  #schedule1 {
+    display: none;
+  }
+  #schedule2 {
+    display: block;
+    text-align: center;
+  }
 }
 
-.accordion-button.collapsed {
-  color: black;
+@media screen and (max-width: 576px) {
+  #banner-card {
+    width: 20rem;
+  }
+
+  .method p,
+  h4 {
+    text-align: center;
+  }
+
+  @media screen and (max-width: 480px) {
+    #banner-left img {
+      transform: translate(-15%, 0%);
+    }
+    .schedule {
+      margin-top: 200px;
+      margin-bottom: 200px;
+    }
+  }
 }

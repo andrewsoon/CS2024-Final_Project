@@ -30,27 +30,21 @@ form {
   background-color: #f3f3f3;
   padding: 40px 20px;
   width: 60%;
-  box-shadow: 7px 8px 20px 3px #d3d3d3;
+  box-shadow: 5px 4px 9px 3px #2626266e;
 }
 
 .btn-primary {
-  background-color: #f8ac2f;
+  background-color: #333765;
   border-radius: 10px;
   border: none;
 }
 
-#below12 {
-  display: none;
+.btn-primary:hover {
+  background-color: #f8ac2f;
 }
 
-#above12 {
-  display: none;
-}
-
-#holiday {
-  display: none;
-}
-#freetrial {
+#classes,
+#freetrial-dates {
   display: none;
 }
 

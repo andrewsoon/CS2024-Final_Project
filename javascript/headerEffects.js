@@ -9,6 +9,7 @@ function headerFunction() {
     document.getElementById("header-link2").className = "header-nav-whiteBG";
     document.getElementById("header-link3").className = "header-nav-whiteBG";
     document.getElementById("header-link4").className = "header-nav-whiteBG";
+    document.getElementById("nav-apply-cta").className = "nav-apply-cta";
     document.getElementById("logo2").style.display = "none";
     document.getElementById("logo").style.display = "block";
   } else {
@@ -17,6 +18,7 @@ function headerFunction() {
     document.getElementById("header-link2").className = "header-nav";
     document.getElementById("header-link3").className = "header-nav";
     document.getElementById("header-link4").className = "header-nav";
+    document.getElementById("nav-apply-cta").className = "nav-apply-cta-dark";
     document.getElementById("logo2").style.display = "block";
     document.getElementById("logo").style.display = "none";
   }
