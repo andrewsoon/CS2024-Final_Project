@@ -36,8 +36,11 @@ form {
 }
 
 .btn-primary {
+  margin-top: 10px;
   border-radius: 10px;
   border: none;
+  background-color: #333765;
+  font-weight: bold;
 }
 
 .btn-primary:hover {
