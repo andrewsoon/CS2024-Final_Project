@@ -92,13 +92,13 @@ h2 {
 #btn1,
 #btn2,
 #btn3 {
-  background-color: #6cb9c3;
+  background-color: #FFFDE2;
 }
 
 #btn4,
 #btn5,
 #btn6 {
-  background-color: #f8ac2f;
+  background-color: #FF9000;
 }
 
 #btn7,
@@ -293,17 +293,13 @@ h2 {
     width: 19rem;
   }
     
-  @media screen and (max-width:480px){
-      
-      #banner-card{
-          width:19rem;
-      }
-      body .card-link{
-          top:130px;
-          left:90px;
-      }
-      .schedule{
-          margin-top:200px;
-          margin-bottom:200px;
-      }
+    
+    body .card-link{
+        top:130px;
+        left:90px;
     }
+    .schedule{
+        margin-top:200px;
+        margin-bottom:200px;
+    }
+}
