@@ -1,294 +1,281 @@
-.body{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#banner{
-    margin:80px auto;
-
+#banner {
+  margin: 80px auto;
 }
 
-#banner-left{
-    height:400px;
-    background-color: black;
-    padding: auto 0 auto 0;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../assets/below12image.jpg);
+#banner-left {
+  height: 400px;
+  background-color: black;
+  padding: auto 0 auto 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/below12image.webp);
 }
 
-#banner-right{
-    background-color:#16182b;
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding:20px 150px;
-
+#banner-right {
+  background-color: #16182b;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 20px 150px;
 }
 
-#banner-right span{
-    margin:0 10px;
+#banner-right span {
+  margin: 0 10px;
 }
 
-#banner-right i{
-    color:white;
+#banner-right i {
+  color: white;
 }
-#banner-card{
-    position:absolute;
-    top:150px;
-    right:180px;
-    padding:15px 10px;
-    border-radius: 0;
-    width:28rem; 
-      
-}
-
-#banner-card h6{
-    color:gray;
+#banner-card {
+  position: absolute;
+  top: 150px;
+  right: 180px;
+  padding: 15px 10px;
+  border-radius: 0;
+  width: 28rem;
 }
 
-.card-link{
-    background-color:#f8ac2f;
-    padding:10px 20px;
-    color:white;
-    position:absolute;
-    top:160px;
-    left:170px;
+#banner-card h6 {
+  color: gray;
 }
 
-.method{
-    padding: 0 70px;
-    text-align: center;
-    
+.card-link {
+  background-color: #f8ac2f;
+  padding: 10px 20px;
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 170px;
 }
 
-.method p{
-    font-size:12px;
+.method {
+  padding: 0 70px;
+  text-align: center;
 }
 
-.method i{
-    color:#f8ac2f;
+.method p {
+  font-size: 12px;
 }
 
-#programs{
-    margin-top:50px;
-    padding:0 50px;
-}
-#programs img{
-    width:100%;
-}
-.accordion{
-    width:50%;
+.method i {
+  color: #f8ac2f;
 }
 
-.title{
-    padding-left:50px;
+#programs {
+  margin-top: 50px;
+  padding: 0 50px;
 }
-h2{
-    text-align: center;
+#programs img {
+  width: 100%;
 }
-
-.card-img-top{
-    width:250px;
-    align-self: center;
-    border-radius: 0;
-
+.accordion {
+  width: 50%;
 }
 
-.servicedesc{
-    display:flex;
-    justify-content: space-evenly;
-    margin:70px;
+.title {
+  padding-left: 50px;
+}
+h2 {
+  text-align: center;
 }
 
-.card{
-    display:flex;
-    border-radius: 10px;
+.card-img-top {
+  width: 250px;
+  align-self: center;
+  border-radius: 0;
 }
 
-.servicecard{
-    width:20rem;
-    display:flex;
-    border-radius: 10px;
-    border: 1px solid rgb(185, 181, 181);
-    margin:0 10px;
+.servicedesc {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
 }
 
-.servicecard h6{
-    margin-top:8px;
+.card {
+  display: flex;
+  border-radius: 10px;
 }
 
-.card-body{
-    position:relative;
-    padding-bottom: 30px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    
+.servicecard {
+  width: 20rem;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgb(185, 181, 181);
+  margin: 0 10px;
+}
+
+.servicecard h6 {
+  margin-top: 8px;
+}
+
+.card-body {
+  position: relative;
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 992px) {
-    #banner-card{
-        position:absolute;
-        top:25%;
-        left:50%;
-        padding:15px 10px;
-        border-radius: 0;
-        width:28rem;    
-        background-color: rgb(255, 255, 255, 0.8);
-        transform: translate(-50%, -50%);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method{
-        padding: 0 30px;
-    }
-    .img{
-        padding:0;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    #banner-card{
-        position:absolute;
-        top:25%;
-        left:50%;
-        padding:15px 10px;
-        border-radius: 0;
-        width:28rem; 
-        transform: translate(-50%, -50%);
-        background-color: rgb(255, 255, 255, 0.8);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method{
-        padding:0 10px;
-    }
-    
-    .title{
-        padding:0;
-    }
-    body .accordion{
-        padding:0;
-        width:100%;
-    }
-    .accordion-button{
-        padding-left:0;
-    }
-    .title h3{
-        padding-top:20px;
-    }
-  }
-
-  @media screen and (max-width: 576px) {
-    #banner-card{
-        position:absolute;
-        top:25%;
-        left:50%;
-        padding:15px 10px;
-        border-radius: 0;
-        width:28rem;
-        background-color: rgb(255, 255, 255, 0.8);
-    }
-    #banner-card h6{
-        color:black;
-    }
-    .method p, h4{
-        text-align:center;
-    }
-    
-    
-  }
-
-  @media screen and (max-width:480px){
-      #banner-card{
-          width:18rem;
-      }
-      body .card-link{
-          top:215px;
-          left:90px;
-      }
-    
-}
-
-
-.packagelink{
+  #banner-card {
     position: absolute;
-    bottom: 10px;
-}
-
-.method p{
-    font-size:12px;
-}
-
-.method i{
-    color:#f8ac2f;
-}
-
-.servicedesc :hover{
-    transform: scale(1.05);
-}
-
-
-h2{
-    text-align: center;
-}
-
-.schedule{
-    background-color:#6CB9C3;
-    height:450px;
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-}
-
-.schcontent{
-    display:flex;
-    justify-content: space-evenly;
-}
-.schdesc{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-}
-#lastcall{
-    background-color: #281b36;
-    height: auto;
-    width: 100%;
-    color: #fcfcfc;
-    position:relative;
-}
-#bannerdesc{
-    position: absolute;
-    top: 70%;
-    left: 30%;
+    top: 25%;
+    left: 50%;
+    padding: 15px 10px;
+    border-radius: 0;
+    width: 28rem;
+    background-color: rgb(255, 255, 255, 0.8);
     transform: translate(-50%, -50%);
-}
-.stairsimg{
-    opacity: 0.5;
-
-}
-
-.accordion-button:not(.collapsed){
-    color:#333765;
-    background-color: transparent;
-}
-
-.accordion-button{
-    font-weight: bold;
-    
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method {
+    padding: 0 30px;
+  }
+  .img {
+    padding: 0;
+  }
 }
 
-.accordion-item{
-    border:none;
+@media screen and (max-width: 768px) {
+  #banner-card {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    padding: 15px 10px;
+    border-radius: 0;
+    width: 28rem;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255, 0.8);
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method {
+    padding: 0 10px;
+  }
+
+  .title {
+    padding: 0;
+  }
+  body .accordion {
+    padding: 0;
+    width: 100%;
+  }
+  .accordion-button {
+    padding-left: 0;
+  }
+  .title h3 {
+    padding-top: 20px;
+  }
 }
 
-.accordion-button.collapsed{
-    color:black;
+@media screen and (max-width: 576px) {
+  #banner-card {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    padding: 15px 10px;
+    border-radius: 0;
+    width: 28rem;
+    background-color: rgb(255, 255, 255, 0.8);
+  }
+  #banner-card h6 {
+    color: black;
+  }
+  .method p,
+  h4 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner-card {
+    width: 18rem;
+  }
+  body .card-link {
+    top: 215px;
+    left: 90px;
+  }
+}
+
+.packagelink {
+  position: absolute;
+  bottom: 10px;
+}
+
+.method p {
+  font-size: 12px;
+}
+
+.method i {
+  color: #f8ac2f;
+}
+
+.servicedesc :hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  text-align: center;
+}
+
+.schedule {
+  background-color: #6cb9c3;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.schcontent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.schdesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#lastcall {
+  background-color: #281b36;
+  height: auto;
+  width: 100%;
+  color: #fcfcfc;
+  position: relative;
+}
+#bannerdesc {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.stairsimg {
+  opacity: 0.5;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #333765;
+  background-color: transparent;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.accordion-button.collapsed {
+  color: black;
 }
