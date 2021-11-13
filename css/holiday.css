@@ -63,7 +63,7 @@
   display: block;
 }
 #img1 {
-  /* background: url(../assets/details1.png); */
+  /* background: url(../assets/details1.webp); */
   background-size: cover;
   width: 90%;
   margin: 0 auto;
@@ -71,7 +71,7 @@
 }
 
 #img2 {
-  /* background: url(../assets/details2.png); */
+  /* background: url(../assets/details2.webp); */
   background-size: cover;
   width: 90%;
   margin: 0 auto;
@@ -79,7 +79,7 @@
 }
 
 #img3 {
-  /* background: url(../assets/details3.png); */
+  /* background: url(../assets/details3.webp); */
   background-size: cover;
   width: 90%;
 }
