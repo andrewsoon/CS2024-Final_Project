@@ -111,6 +111,10 @@ h2{
     background-color:#6CB9C3 ;
 }
 
+.accordion-button:not(.collapsed) {
+  color: #000;
+}
+
 .schedule{
     /* background-color:#6CB9C3; */
     height:450px;
