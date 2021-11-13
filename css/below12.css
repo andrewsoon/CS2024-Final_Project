@@ -58,16 +58,22 @@
   position: absolute;
   top: 110px;
   left: 130px;
-  border-radius: 20px;
+  border-radius: 20px !important;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #fac46d;
 }
 
 .method {
-  padding: 0 70px;
+  padding: 0 30px;
   text-align: center;
 }
 
 .method p {
-  font-size: 12px;
+  font-size: 0.9em;
 }
 
 .method i {
@@ -105,6 +111,10 @@ h2 {
 #btn8,
 #btn9 {
   background-color: #6bbd5e;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
 }
 
 .accordion-body {

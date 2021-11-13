@@ -1,262 +1,258 @@
-.body{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    margin:30px auto 0 auto;
-    background-color: #F3F3F3;
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto 0 auto;
+  background-color: #f0f0f0;
 }
 
-.background{
-    background: white;
-    display: flex;
-    justify-content: center;
-    height:500px;
-    width:900px;
-    position:absolute;
-    left:250px;   
+.background {
+  background: white;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 900px;
+  position: absolute;
+  left: 250px;
+  box-shadow: 7px 6px 11px #2626266e;
 }
-.card{
-    display:flex;
-    flex-direction: initial;
-    width:45rem;
-    border:0;
-    margin-left:180px;
-    
+.card {
+  display: flex;
+  flex-direction: initial;
+  width: 45rem;
+  border: 0;
+  margin-left: 180px;
 }
-.card-left{
-    background-color:#2D4159;
-    padding:90px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* align-items: center; */
-    color:white;
-}
-
-.card-right{
-    padding: 5px 50px;
-    width:600px;
-    position: relative;
+.card-left {
+  background-color: #2d4159;
+  padding: 90px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
 }
 
-.card-right h6{
-    width:400px;
-}
-.info{
-    display:flex;
-    align-items: center;
-    margin: 10px 0px;
+.card-right {
+  padding: 5px 50px;
+  width: 600px;
+  position: relative;
 }
 
-p{
-    margin:0 10px;
+.card-right h6 {
+  width: 400px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
 }
 
-form{
-    padding:30px 0;
+p {
+  margin: 0 10px;
 }
 
-.form-control{
-    background-color:#F9F9FB;
-    border:0;
-    
-    width: 500px;
-    border-radius:10px;
-    align-self:flex-start;
-    margin:10px 0px;
-}
-::placeholder{
-    color:#DADADC;
-}
-#exampleInputMessage1{
-   padding-bottom:80px;
+form {
+  padding: 30px 0;
 }
 
-.sendmsg{
-    padding: 8px 25px;
-    position:absolute;
-    bottom:10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    border-radius: 20px;
-    background-color: #f8ac2f;
-    
-    width: fit-content;
+.form-control {
+  background-color: #f9f9fb;
+  border: 0;
+
+  width: 500px;
+  border-radius: 10px;
+  align-self: flex-start;
+  margin: 10px 0px;
+}
+::placeholder {
+  color: #dadadc;
+}
+#exampleInputMessage1 {
+  padding-bottom: 80px;
+}
+
+.sendmsg {
+  padding: 8px 25px;
+  position: absolute;
+  bottom: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #f8ac2f;
+
+  width: fit-content;
 }
 
 .sendmsg:hover {
-    text-decoration: none;
-    color: #fff;
-    background-color: #fac46d;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fac46d;
+}
+
+@media screen and (max-width: 1320px) {
+  .background {
+    left: 280px;
+    width: 800px;
+  }
+  body .card-left {
+    padding: 90px 40px;
+  }
+  .form-control {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .background {
+    left: 250px;
+    width: 700px;
+  }
+  body .card-left {
+    padding: 90px 40px;
+  }
+  .form-control {
+    width: 330px;
+  }
+  .card {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .background {
+    display: none;
   }
 
-@media screen and (max-width:1320px) {
-    .background{
-        left:280px;
-        width:800px;
-    }
-    body .card-left{
-        padding:90px 40px;
-    }
-    .form-control{
-        width:450px;
-    }
+  .card {
+    margin: 0 auto;
+  }
+  body .card-left {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  body .card-right {
+    display: flex;
+  }
+  .info {
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    width: 430px;
+  }
+  body .card-right a {
+    position: relative;
+  }
+  .card-right h2 {
+    position: relative;
+    top: 35px;
+  }
+  .card-right h6 {
+    position: absolute;
+    top: 130px;
+    width: 140px;
+  }
+  form {
+    padding: 30px 0px 30px 90px;
+  }
+  .card-left h2 {
+    display: none;
+  }
 }
 
-@media screen and (max-width:1200px) {
-    .background{
-        left:250px;
-        width:700px;
-    }
-    body .card-left{
-        padding:90px 40px;
-        
-    }
-    .form-control{
-        width:330px;
-    }
-    .card{
-        margin-left:150px;
-    }
+@media screen and (max-width: 768px) {
+  .card {
+    width: 30rem;
+    margin: 100px auto;
+  }
+  body .card-left {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  body .card-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .info {
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    width: 230px;
+  }
+  body .card-right a {
+    position: relative;
+  }
+  .card-right h2 {
+    position: relative;
+    top: 35px;
+  }
+  .card-right h6 {
+    width: auto;
+    position: relative;
+    top: 40px;
+  }
+  form {
+    padding: 50px 0px 30px 0px;
+  }
+  .card-left h2 {
+    display: none;
+  }
 }
 
-@media screen and (max-width:992px) {
-    .background{
-        display:none;
-    }
+@media screen and (max-width: 576px) {
+  .card {
+    width: 20rem;
+    margin: 100px auto;
+  }
+  body .card-left {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+  }
+  body .card-right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .info {
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+  }
 
-    .card{
-        margin:0 auto;
-    }
-    body .card-left{
-        padding:10px;
-        text-align: center;
-        align-items: center;
-    }
-    body .card-right{
-        display:flex;
-    }
-    .info{
-        display:flex;
-        text-align: center;
-        padding-left:30px;
-    }
-    
-    .form-control{
-        width:430px;
-    }
-    body .card-right a{
-       position:relative;
-    }
-    .card-right h2{
-        position:relative;
-        top:35px;
-    }
-    .card-right h6{
-        position:absolute;
-        top:130px;
-        width:140px;
-    }
-    form{
-        padding: 30px 0px 30px 90px;    
-    }
-    .card-left h2{
-        display: none;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .card{
-        width:30rem;
-        margin:100px auto;
-    }
-    body .card-left{
-        padding:10px;
-        text-align: center;
-        align-items: center;
-    }
-    body .card-right{
-        display:flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-    .info{
-        display:flex;
-        text-align: center;
-        padding-left:30px;
-    }
-    
-    .form-control{
-        width:230px;
-    }
-    body .card-right a{
-       position:relative;
-    }
-    .card-right h2{
-        position:relative;
-        top:35px;
-        
-    }
-    .card-right h6{
-        width:auto;
-        position:relative;
-        top:40px;
-        
-    }
-    form{
-        padding: 50px 0px 30px 0px;    
-    }
-    .card-left h2{
-        display: none;
-    }
-}
-
-@media screen and (max-width:576px) {
-    .card{
-        width:20rem;
-        margin:100px auto;
-    }
-    body .card-left{
-        padding:10px;
-        text-align: center;
-        align-items: center;
-    }
-    body .card-right{
-        display:flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-    .info{
-        display:flex;
-        text-align: center;
-        padding-left:30px;
-    }
-    
-    .form-control{
-        width:230px;
-    }
-    body .card-right a{
-       position:relative;
-    }
-    .card-right h2{
-        position:relative;
-        top:35px;
-        padding:0;
-    }
-    .card-right h6{
-        width:auto;
-        position:relative;
-        top:40px;
-        padding:0 10px;
-    }
-    form{
-        padding:30px 0;
-    }
-    .card-left h2{
-        display: none;
-    }
-
+  .form-control {
+    width: 230px;
+  }
+  body .card-right a {
+    position: relative;
+  }
+  .card-right h2 {
+    position: relative;
+    top: 35px;
+    padding: 0;
+  }
+  .card-right h6 {
+    width: auto;
+    position: relative;
+    top: 40px;
+    padding: 0 10px;
+  }
+  form {
+    padding: 30px 0;
+  }
+  .card-left h2 {
+    display: none;
+  }
 }
