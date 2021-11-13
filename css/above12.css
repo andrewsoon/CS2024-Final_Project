@@ -1,20 +1,20 @@
-.body{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    background:white;
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
 }
 
-#banner{
-    margin:80px auto;
-    background: #999999;
+#banner {
+  margin: 80px auto;
+  background: #999999;
 }
 
-#banner-left{
-    height:500px;
-    padding:0;
-    overflow: hidden;
-    /* background-size: contain;
+#banner-left {
+  height: 500px;
+  padding: 0;
+  overflow: hidden;
+  /* background-size: contain;
 
     /* background-size: contain;
     background-position: center;
@@ -40,27 +40,33 @@
 }
 */
 
-#banner-card{
-    position:absolute;
-    top:350px;
-    right:250px;
-    padding-bottom:20px;
-    width:22rem; 
-    background-color: transparent;
-    border:none;
-    color:white;
-    text-align: right;
+#banner-card {
+  position: absolute;
+  top: 350px;
+  right: 250px;
+  padding-bottom: 20px;
+  width: 22rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: right;
 }
 
-.card-link{
-    background-color:#f8ac2f;
-    padding:10px 30px;
-    color:white;
-    position:absolute;
-    top:110px;
-    text-align: auto;
-    right:35px;
-    /* border-radius: 20px; */
+.card-link {
+  background-color: #333765;
+  padding: 10px 30px;
+  color: white;
+  position: absolute;
+  top: 110px;
+  text-align: auto;
+  right: 35px;
+  border-radius: 20px;
+}
+
+.card-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #474d92;
 }
 
 .method {
@@ -76,9 +82,9 @@
   color: #f8ac2f;
 }
 
-#programs{
-    margin-top:50px;
-    padding:0;
+#programs {
+  margin-top: 50px;
+  padding: 0;
 }
 #programs img {
   width: 100%;
@@ -163,131 +169,128 @@ h2 {
   transform: translate(-50%, -50%);
 }
 
-.testimg{
-    padding: 0 40px;
+.testimg {
+  padding: 0 40px;
 }
 /* .stairsimg{
     opacity: 0.5;
 
 } */
 
-#schedulefees{
-    text-align: center;
+#schedulefees {
+  text-align: center;
 }
 
-.scheduledesc{
-    border-right:1px solid black;
+.scheduledesc {
+  border-right: 1px solid black;
 }
-#schedule2{
-    display:none;
+#schedule2 {
+  display: none;
 }
-@media screen and (max-width:1200px) {
-    .accordion-body{
-        height:285px;
-        overflow-y: scroll;
-    }
-    .schedule p{
-        padding: 10px;
-    }
-    #schedulefees{
-        padding:0 20px;
-    }
-    #banner-card{
-        position:absolute;
-        top:40%;
-        left:70%;
-        padding-bottom:20px;
-        /* border: none;
+@media screen and (max-width: 1200px) {
+  .accordion-body {
+    height: 285px;
+    overflow-y: scroll;
+  }
+  .schedule p {
+    padding: 10px;
+  }
+  #schedulefees {
+    padding: 0 20px;
+  }
+  #banner-card {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    padding-bottom: 20px;
+    /* border: none;
         color:white; */
-        width:22rem;    
-        transform: translate(-50%, -50%);
-    }
+    width: 22rem;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (max-width: 992px) {
-    #banner-card{
-        position:absolute;
-        top:50%;
-        left:50%;
-        padding-bottom:20px;
-        /* border: none;
+  #banner-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-bottom: 20px;
+    /* border: none;
         color:white; */
-        width:34rem;
-        text-align: center;    
-        transform: translate(-50%, -50%);
-    }
-    .card-link{
-        position: relative;
-        top:10px;
-        right:auto;
-    }
-    .method{
-        padding: 0 30px;
-    }
-    .accordion-body{
-        height:170px;
-    }
-    .schedule p{
-        padding:0;
-    }
-    #schedulefees{
-        padding:0;
-    }
-    #lessonheader, #feesheader{
-        margin-bottom:40px;
-    }
+    width: 34rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
   }
-
-  @media screen and (max-width: 768px) {
- 
-    .method{
-        padding:0 10px;
-    }
-    .accordion{
-        width:100%;
-    }
-    .accordion-body{
-        height: auto;
-    }
-    #programs img{
-        margin: 0 auto;
-        width:100%;
-    }
-    .scheduledesc{
-        border:0;    
-    }
-    .schedule{
-        margin-top:130px;
-        margin-bottom:130px;
-    }
-    #schedule1{
-        display: none;
-    }
-    #schedule2{
-        display:block;
-        text-align: center;
-    }
+  .card-link {
+    position: relative;
+    top: 10px;
+    right: auto;
+  }
+  .method {
+    padding: 0 30px;
+  }
+  .accordion-body {
+    height: 170px;
+  }
+  .schedule p {
+    padding: 0;
+  }
+  #schedulefees {
+    padding: 0;
+  }
+  #lessonheader,
+  #feesheader {
+    margin-bottom: 40px;
   }
 }
 
-   @media screen and (max-width: 576px) {
-    
-    #banner-card{
-        width:20rem;
-    }
-    .schedule {
-      margin-top: 200px;
-      margin-bottom: 200px;
-    }
+@media screen and (max-width: 768px) {
+  .method {
+    padding: 0 10px;
   }
-    
-  @media screen and (max-width:480px){
-      
-      #banner-left img{
-        transform: translate(-15%, 0%);
-      }
-      .schedule{
-        margin-top:200px;
-        margin-bottom:200px;
-    }
+  .accordion {
+    width: 100%;
   }
+  .accordion-body {
+    height: auto;
+  }
+  #programs img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .scheduledesc {
+    border: 0;
+  }
+  .schedule {
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  #schedule1 {
+    display: none;
+  }
+  #schedule2 {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #banner-card {
+    width: 20rem;
+  }
+  .schedule {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #banner-left img {
+    transform: translate(-15%, 0%);
+  }
+  .schedule {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}
