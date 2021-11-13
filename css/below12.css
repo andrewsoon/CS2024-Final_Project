@@ -52,7 +52,7 @@
 }
 
 .card-link {
-  background-color: #f8ac2f;
+  background-color: #333765;
   padding: 10px 20px;
   color: white;
   position: absolute;
@@ -64,7 +64,7 @@
 .card-link:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #fac46d;
+  background-color: #474d92;
 }
 
 .method {
@@ -98,13 +98,13 @@ h2 {
 #btn1,
 #btn2,
 #btn3 {
-  background-color: #FFFDE2;
+  background-color: #fffde2;
 }
 
 #btn4,
 #btn5,
 #btn6 {
-  background-color: #FF9000;
+  background-color: #ff9000;
 }
 
 #btn7,
@@ -175,9 +175,9 @@ h2 {
 
 } */
 
-#schedulefees{
-    padding:0 40px;
-    text-align: center;
+#schedulefees {
+  padding: 0 40px;
+  text-align: center;
 }
 
 .scheduledesc {
@@ -286,18 +286,18 @@ h2 {
     transform: translate(-50%, -50%);
   }
 
-@media screen and (max-width: 480px) {
-  #banner-card {
-    width: 19rem;
+  @media screen and (max-width: 480px) {
+    #banner-card {
+      width: 19rem;
+    }
+
+    body .card-link {
+      top: 130px;
+      left: 90px;
+    }
+    .schedule {
+      margin-top: 200px;
+      margin-bottom: 200px;
+    }
   }
-    
-    
-    body .card-link{
-        top:130px;
-        left:90px;
-    }
-    .schedule{
-        margin-top:200px;
-        margin-bottom:200px;
-    }
 }
