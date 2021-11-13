@@ -72,11 +72,24 @@ form{
    padding-bottom:80px;
 }
 
-.nav-apply-cta{
+.sendmsg{
     padding: 8px 25px;
     position:absolute;
     bottom:10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #f8ac2f;
+    
+    width: fit-content;
 }
+
+.sendmsg:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fac46d;
+  }
 
 @media screen and (max-width:1320px) {
     .background{
