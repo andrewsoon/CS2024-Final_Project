@@ -39,7 +39,7 @@
   position: relative;
 }
 
-.card-right h6 {
+.card-right p {
   width: 400px;
 }
 .info {
@@ -151,11 +151,12 @@ form {
     position: relative;
     top: 35px;
   }
-  .card-right h6 {
+  .card-right p {
     position: absolute;
     top: 130px;
     width: 140px;
   }
+
   form {
     padding: 30px 0px 30px 90px;
   }
@@ -196,7 +197,7 @@ form {
     position: relative;
     top: 35px;
   }
-  .card-right h6 {
+  .card-right p {
     width: auto;
     position: relative;
     top: 40px;

@@ -20,6 +20,8 @@
 .card-img-top {
   align-self: center;
   border-radius: 0;
+  max-width: 298;
+  max-height: 194;
 }
 
 .card-body {
