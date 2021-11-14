@@ -19,24 +19,6 @@
   opacity: 0.4;
 }
 
-/* #banner-right{
-    background-color:#16182b;
-    display:flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding:20px 150px;
-
-} 
-
-#banner-right span{
-    margin:0 10px;
-}
-
-#banner-right i{
-    color:white;
-}
-*/
-
 #banner-card {
   position: absolute;
   top: 400px;
@@ -87,6 +69,10 @@
 #programs img {
   width: 100%;
 }
+/* #img1 img, #img2 img, #img3 img{
+  width:555px;
+  height:530px;
+} */
 .accordion {
   width: 50%;
 }
@@ -197,6 +183,10 @@ h2 {
   #schedulefees {
     padding: 0 20px;
   }
+  /* #img1 img, #img2 img, #img3 img{
+    width:465px;
+    height:444px
+  } */
 }
 
 @media screen and (max-width: 992px) {
@@ -229,6 +219,10 @@ h2 {
   #feesheader {
     margin-bottom: 40px;
   }
+  /* #img1 img, #img2 img, #img3 img{
+    width:345px;
+    height:329px
+  } */
 }
 
 @media screen and (max-width: 768px) {
