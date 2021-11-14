@@ -53,7 +53,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     text-align: center;
   }
   #bannerdesc h2 {
@@ -81,6 +81,8 @@
 
 .reasonsimg {
   width: 100%;
+  max-height:450;
+  max-width: 525;
 }
 
 .packages {
