@@ -1,16 +1,13 @@
-.body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .banner {
-  background-color: #000;
+  background-color: #00000080;
   margin: 80px auto;
-  height: auto;
+  height: 500px;
   width: 100%;
   color: #fcfcfc;
   position: relative;
+  background-image: url(../assets/whycoding.webp);
+  background-blend-mode: darken;
+  background-position: 50% 30%;
 }
 
 .banner-apply-cta {
